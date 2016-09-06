@@ -52,3 +52,7 @@ Na loja, a vendedora analisa as mercadorias e realiza a compra, sempre de 3 (tr�
 
 ### Descrição dos processos de negócio
 
+quadros com:
+Use case de negócio: (qual a ação)
+Ator(es): quem participa
+Descrição: do processo que envolve essa ação
