@@ -53,17 +53,193 @@ Na loja, a vendedora analisa as mercadorias e realiza a compra, sempre de 3 (tr�
 ### Descrição dos processos de negócio
 
 <table>
-<caption>Monthly savings</caption>
+<caption>Quadro 1 - Use Case de Negócio: Agendar Viagem</caption>
   <tr>
   <td>Use Case de Negócio:</td>
-    <td>(qual a ação)</td>
+    <td>Agendar Viagem</td>
   </tr>
   <tr>
   <td>Ator(es):</td>
-    <td>quem participa</td>
+    <td>Agente de Viagem e Vendedor(a)</td>
   </tr>
   <tr>
   <td>Descrição:</td>
-    <td>do processo que envolve essa ação</td>
+    <td>Neste processo, é agendado a viagem para compra das mercadorias.</td>
+  </tr>
+</table>
+
+<table>
+<caption>Quadro 2 - Use Case de Negócio: Comprar Mercadorias</caption>
+  <tr>
+  <td>Use Case de Negócio:</td>
+    <td>Comprar Mercadorias</td>
+  </tr>
+  <tr>
+  <td>Ator(es):</td>
+    <td>Fornecedor e Vendedor(a)</td>
+  </tr>
+  <tr>
+  <td>Descrição:</td>
+    <td>Neste processo, é feito a escolha e aquisição das mercadorias por lojas atacadistas.</td>
+  </tr>
+</table>
+
+<table>
+<caption>Quadro 3 - Use Case de Negócio: Organizar Mercadorias</caption>
+  <tr>
+  <td>Use Case de Negócio:</td>
+    <td>Organizar Mercadorias</td>
+  </tr>
+  <tr>
+  <td>Ator(es):</td>
+    <td>Vendedor(a)</td>
+  </tr>
+  <tr>
+  <td>Descrição:</td>
+    <td>Neste processo, é feita toda a organização das mercadorias adquiridas, as preparando para a venda.</td>
+  </tr>
+</table>
+
+<table>
+<caption>Quadro 4 - Use Case de Negócio: Anotar Preços nas Mercadorias</caption>
+  <tr>
+  <td>Use Case de Negócio:</td>
+    <td>Anotar Preços nas Mercadorias</td>
+  </tr>
+  <tr>
+  <td>Ator(es):</td>
+    <td>Vendedor(a)</td>
+  </tr>
+  <tr>
+  <td>Descrição:</td>
+    <td>Neste processo, é calculado e anotado o preço de venda de na etiqueta de cada mercadoria.</td>
+  </tr>
+</table>
+
+<table>
+<caption>Quadro 5 - Use Case de Negócio: Consultar Contas a Pagar</caption>
+  <tr>
+  <td>Use Case de Negócio:</td>
+    <td>Consultar Contas a Pagar</td>
+  </tr>
+  <tr>
+  <td>Ator(es):</td>
+    <td>Vendedor(a)</td>
+  </tr>
+  <tr>
+  <td>Descrição:</td>
+    <td>Neste processo, é consultado o caderno com as anotações de todos os pagamentos de cheques ou fornecedores que devem ser realizados.</td>
+  </tr>
+</table>
+
+<table>
+<caption>Quadro 6 - Use Case de Negócio: Pagar Contas</caption>
+  <tr>
+  <td>Use Case de Negócio:</td>
+    <td>Pagar Contas</td>
+  </tr>
+  <tr>
+  <td>Ator(es):</td>
+    <td>Vendedor(a)</td>
+  </tr>
+  <tr>
+  <td>Descrição:</td>
+    <td>Neste processo, é feito o pagamento dos cheques ou fornecedores.</td>
+  </tr>
+</table>
+
+<table>
+<caption>Quadro 7 - Use Case de Negócio: Consultar Contas a Receber</caption>
+  <tr>
+  <td>Use Case de Negócio:</td>
+    <td>Consultar Contas a Receber</td>
+  </tr>
+  <tr>
+  <td>Ator(es):</td>
+    <td>Vendedor(a)</td>
+  </tr>
+  <tr>
+  <td>Descrição:</td>
+    <td>Neste processo, é consultado o caderno com as fichas das clientes e verificado se há recebimentos a serem feitos no dia.</td>
+  </tr>
+</table>
+
+<table>
+<caption>Quadro 8 - Use Case de Negócio: Ligar para o Cliente</caption>
+  <tr>
+  <td>Use Case de Negócio:</td>
+    <td>Ligar para o Cliente</td>
+  </tr>
+  <tr>
+  <td>Ator(es):</td>
+    <td>Vendedor(a) e Cliente</td>
+  </tr>
+  <tr>
+  <td>Descrição:</td>
+    <td>Neste processo, é feito um contato para o agendamento de uma visita ao cliente para fazer o recebimento ou uma exibição/venda das mercadorias.</td>
+  </tr>
+</table>
+
+ <table>
+<caption>Quadro 9 - Use Case de Negócio: Ligar para o Cliente</caption>
+  <tr>
+  <td>Use Case de Negócio:</td>
+    <td>Ligar para o Cliente</td>
+  </tr>
+  <tr>
+  <td>Ator(es):</td>
+    <td>Vendedor(a) e Cliente</td>
+  </tr>
+  <tr>
+  <td>Descrição:</td>
+    <td>Neste processo, é feito um contato para o agendamento de uma visita ao cliente para fazer o recebimento ou uma exibição/venda das mercadorias.</td>
+  </tr>
+</table>
+
+ <table>
+<caption>Quadro 11 - Use Case de Negócio: Visitar Cliente</caption>
+  <tr>
+  <td>Use Case de Negócio:</td>
+    <td>Visitar Cliente</td>
+  </tr>
+  <tr>
+  <td>Ator(es):</td>
+    <td>Vendedor(a) e Cliente</td>
+  </tr>
+  <tr>
+  <td>Descrição:</td>
+    <td>Neste processo, o (a) vendedor(a) vai até o local escolhido pelo cliente na hora e data marcadas.</td>
+  </tr>
+</table>
+
+<table>
+<caption>Quadro 12 - Use Case de Negócio: Fazer Recebimento</caption>
+  <tr>
+  <td>Use Case de Negócio:</td>
+    <td>Fazer Recebimento</td>
+  </tr>
+  <tr>
+  <td>Ator(es):</td>
+    <td>Vendedor(a) e Cliente</td>
+  </tr>
+  <tr>
+  <td>Descrição:</td>
+    <td>Neste processo, o(a) vendedor(a) recolhe o dinheiro do pagamento pendente por parte do cliente e da baixa na ficha.</td>
+  </tr>
+</table>
+
+<table>
+<caption>Quadro 13 - Use Case de Negócio: Mostrar Mercadorias</caption>
+  <tr>
+  <td>Use Case de Negócio:</td>
+    <td>Mostrar Mercadorias</td>
+  </tr>
+  <tr>
+  <td>Ator(es):</td>
+    <td>Vendedor(a) e Cliente</td>
+  </tr>
+  <tr>
+  <td>Descrição:</td>
+    <td>Neste processo, o(a) vendedor(a) </td>
   </tr>
 </table>
