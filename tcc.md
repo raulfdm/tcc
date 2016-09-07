@@ -52,7 +52,18 @@ Na loja, a vendedora analisa as mercadorias e realiza a compra, sempre de 3 (tr�
 
 ### Descrição dos processos de negócio
 
-quadros com:
-Use case de negócio: (qual a ação)
-Ator(es): quem participa
-Descrição: do processo que envolve essa ação
+<table>
+<caption>Monthly savings</caption>
+  <tr>
+  <td>Use Case de Negócio:</td>
+    <td>(qual a ação)</td>
+  </tr>
+  <tr>
+  <td>Ator(es):</td>
+    <td>quem participa</td>
+  </tr>
+  <tr>
+  <td>Descrição:</td>
+    <td>do processo que envolve essa ação</td>
+  </tr>
+</table>
