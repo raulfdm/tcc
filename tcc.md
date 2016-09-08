@@ -67,7 +67,7 @@ Na loja, a vendedora analisa as mercadorias e realiza a compra, sempre de 3 (tr�
     <td>Neste processo, é agendado a viagem para compra das mercadorias.</td>
   </tr>
 </table>
-
+---
 <table>
 <caption>Quadro 2 - Use Case de Negócio: Comprar Mercadorias</caption>
   <tr>
@@ -83,7 +83,7 @@ Na loja, a vendedora analisa as mercadorias e realiza a compra, sempre de 3 (tr�
     <td>Neste processo, é feito a escolha e aquisição das mercadorias por lojas atacadistas.</td>
   </tr>
 </table>
-
+___
 <table>
 <caption>Quadro 3 - Use Case de Negócio: Organizar Mercadorias</caption>
   <tr>
@@ -99,7 +99,7 @@ Na loja, a vendedora analisa as mercadorias e realiza a compra, sempre de 3 (tr�
     <td>Neste processo, é feita toda a organização das mercadorias adquiridas, as preparando para a venda.</td>
   </tr>
 </table>
-
+---
 <table>
 <caption>Quadro 4 - Use Case de Negócio: Anotar Preços nas Mercadorias</caption>
   <tr>
@@ -115,7 +115,7 @@ Na loja, a vendedora analisa as mercadorias e realiza a compra, sempre de 3 (tr�
     <td>Neste processo, é calculado e anotado o preço de venda de na etiqueta de cada mercadoria.</td>
   </tr>
 </table>
-
+---
 <table>
 <caption>Quadro 5 - Use Case de Negócio: Consultar Contas a Pagar</caption>
   <tr>
@@ -131,7 +131,7 @@ Na loja, a vendedora analisa as mercadorias e realiza a compra, sempre de 3 (tr�
     <td>Neste processo, é consultado o caderno com as anotações de todos os pagamentos de cheques ou fornecedores que devem ser realizados.</td>
   </tr>
 </table>
-
+---
 <table>
 <caption>Quadro 6 - Use Case de Negócio: Pagar Contas</caption>
   <tr>
@@ -147,7 +147,7 @@ Na loja, a vendedora analisa as mercadorias e realiza a compra, sempre de 3 (tr�
     <td>Neste processo, é feito o pagamento dos cheques ou fornecedores.</td>
   </tr>
 </table>
-
+---
 <table>
 <caption>Quadro 7 - Use Case de Negócio: Consultar Contas a Receber</caption>
   <tr>
@@ -163,7 +163,7 @@ Na loja, a vendedora analisa as mercadorias e realiza a compra, sempre de 3 (tr�
     <td>Neste processo, é consultado o caderno com as fichas das clientes e verificado se há recebimentos a serem feitos no dia.</td>
   </tr>
 </table>
-
+---
 <table>
 <caption>Quadro 8 - Use Case de Negócio: Ligar para o Cliente</caption>
   <tr>
@@ -179,7 +179,7 @@ Na loja, a vendedora analisa as mercadorias e realiza a compra, sempre de 3 (tr�
     <td>Neste processo, é feito um contato para o agendamento de uma visita ao cliente para fazer o recebimento ou uma exibição/venda das mercadorias.</td>
   </tr>
 </table>
-
+---
  <table>
 <caption>Quadro 9 - Use Case de Negócio: Ligar para o Cliente</caption>
   <tr>
@@ -195,7 +195,7 @@ Na loja, a vendedora analisa as mercadorias e realiza a compra, sempre de 3 (tr�
     <td>Neste processo, é feito um contato para o agendamento de uma visita ao cliente para fazer o recebimento ou uma exibição/venda das mercadorias.</td>
   </tr>
 </table>
-
+---
  <table>
 <caption>Quadro 11 - Use Case de Negócio: Visitar Cliente</caption>
   <tr>
@@ -211,7 +211,7 @@ Na loja, a vendedora analisa as mercadorias e realiza a compra, sempre de 3 (tr�
     <td>Neste processo, o (a) vendedor(a) vai até o local escolhido pelo cliente na hora e data marcadas.</td>
   </tr>
 </table>
-
+---
 <table>
 <caption>Quadro 12 - Use Case de Negócio: Fazer Recebimento</caption>
   <tr>
@@ -227,9 +227,25 @@ Na loja, a vendedora analisa as mercadorias e realiza a compra, sempre de 3 (tr�
     <td>Neste processo, o(a) vendedor(a) recolhe o dinheiro do pagamento pendente por parte do cliente e da baixa na ficha.</td>
   </tr>
 </table>
-
+---
 <table>
-<caption>Quadro 13 - Use Case de Negócio: Mostrar Mercadorias</caption>
+<caption>Quadro 13 - Use Case de Negócio: Dar baixa do pagatamento na ficha do cliente</caption>
+  <tr>
+  <td>Use Case de Negócio:</td>
+    <td>Dar baixa do pagatamento na ficha do cliente</td>
+  </tr>
+  <tr>
+  <td>Ator(es):</td>
+    <td>Vendedor(a) e Cliente</td>
+  </tr>
+  <tr>
+  <td>Descrição:</td>
+    <td>Neste processo, o(a) vendedor(a) marca um "ok" ao lado da parcela que o cliente está pagando.</td>
+  </tr>
+</table>
+---
+<table>
+<caption>Quadro 14 - Use Case de Negócio: Mostrar Mercadorias</caption>
   <tr>
   <td>Use Case de Negócio:</td>
     <td>Mostrar Mercadorias</td>
@@ -240,6 +256,39 @@ Na loja, a vendedora analisa as mercadorias e realiza a compra, sempre de 3 (tr�
   </tr>
   <tr>
   <td>Descrição:</td>
-    <td>Neste processo, o(a) vendedor(a) </td>
+    <td>Neste processo, o(a) vendedor(a) apresenta as mercadorias que sejam compatíveis com o tamanho do cliente, fazendo as cobinções e auxiliando na experimentação das peças.</td>
+  </tr>
+</table>
+---
+<table>
+<caption>Quadro 15 - Use Case de Negócio: Realizar Venda</caption>
+  <tr>
+  <td>Use Case de Negócio:</td>
+    <td>Realizar Venda</td>
+  </tr>
+  <tr>
+  <td>Ator(es):</td>
+    <td>Vendedor(a) e Cliente</td>
+  </tr>
+  <tr>
+  <td>Descrição:</td>
+    <td>Neste processo, o(a) cliente o(a) vendedor(a) quais as peças que ele vai comprar e o(a) vendedor(a) começa a organizar e guardar as mercadorias de volta na sacola.</td>
+  </tr>
+</table>
+ble>
+---
+<table>
+<caption>Quadro 16 - Use Case de Negócio: Anotar Venda na Ficha do Cliente</caption>
+  <tr>
+  <td>Use Case de Negócio:</td>
+    <td>Anotar Venda na Ficha do Cliente</td>
+  </tr>
+  <tr>
+  <td>Ator(es):</td>
+    <td>Vendedor(a) e Cliente</td>
+  </tr>
+  <tr>
+  <td>Descrição:</td>
+    <td>Neste processo, o(a) cliente informa o(a) vendedor(a) qual a condição de pagamento que vai querer e o(a) vendedor(a) anota na ficha do(a) cliente o valor da parcela e as datas para o recebimento.</td>
   </tr>
 </table>
