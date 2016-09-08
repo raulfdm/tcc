@@ -275,7 +275,6 @@ ___
     <td>Neste processo, o(a) cliente o(a) vendedor(a) quais as peças que ele vai comprar e o(a) vendedor(a) começa a organizar e guardar as mercadorias de volta na sacola.</td>
   </tr>
 </table>
-ble>
 ---
 <table>
 <caption>Quadro 16 - Use Case de Negócio: Anotar Venda na Ficha do Cliente</caption>
