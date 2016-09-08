@@ -1,13 +1,13 @@
-## Introdução
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A empresa alvo deste projeto possui duas pessoas trabalhando, uma comerciante autônoma, vendedora de roupas e acessórios que atua no ramo há 25 anos e sua filha que está iniciando no ramo de vendas. Seus (uas) clientes são pessoas físicas que as solicitam uma visita residencial para a apresentação das mercadorias trazidas de outras cidades, como por exemplo Rio Preto, São Paulo, Goiânia, entre outras.
+## Introdução 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A empresa alvo deste projeto possui apenas duas pessoas, uma comerciante autônoma, vendedora de roupas e acessórios que atua no ramo há 25 anos e sua filha que está iniciando no ramo de vendas. Por se tretar de uma micro empresa, ambas cuidam de todas as áreas, desde as vendas, contas a pagar, contas a receber e até mesmo as compras de mercadorias. Seus(uas) clientes são pessoas físicas que as solicitam uma visita residencial para a apresentação das mercadorias trazidas de outras cidades, como por exemplo Rio Preto, São Paulo, Goiânia, entre outras.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Após realizada a exibição e venda, a vendedora cria uma ficha cadastral, onde é anotado informações básicas para contato e identificação do cliente e informações gerais sobre as vendas realizadas, como a quantidade total da compra e as parcelas com suas respectivas datas de pagamento. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Após realizada a apresentação e venda, a vendedora cria uma ficha cadastral, onde é anotado informações básicas para contato e identificação do cliente e informações gerais sobre as vendas realizadas, como a quantidade total da compra e as parcelas com suas respectivas datas de pagamento. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Diariamente essas fichas são consultadas para avaliar duas informações cruciais ao negócio. A primeira é identificar quais são os recebimentos a serem feitos no dia e a segunda é identificar os clientes que estão na penúltima ou última parcela do pagamento, com o intuito de realizar contato e marcar um horário para a apresentação das novas mercadorias.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Diariamente essas fichas são consultadas para avaliar duas informações cruciais ao negócio. A primeira é identificar quais são os recebimentos a serem feitos no dia e a segunda é identificar os clientes que estão perto de quitar sua dívida, com o intuito de realizar contato e agendar um horário para a apresentação das novas mercadorias.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nas viagens de compra de mercadoria, quase todas as negociações são feitas através de cheques pré-datados. Desta maneira, também faz-se necessário validar diariamente os cheques que deverão ser pagos no dia, para que seja feito o depósito do valor em questão.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Assim, o sistema deverá proporcionar um controle dos pagamentos e recebimentos, bem como informar ao usuário todas as informações importantes para o início das atividades de forma automatizada, otimizando o tempo gasto nas tarefas manuais.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Assim, o sistema deverá proporcionar um controle dos pagamentos e recebimentos, bem como exibir ao usuário todas as informações importantes para o início das atividades de forma automatizada, otimizando o tempo gasto nas tarefas manuais.
 
 ###	Objetivo Geral
 O objetivo deste projeto é criar um sistema de informação para uma empreendedora autônoma no seguimento de venda de roupas e acessórios.
@@ -24,24 +24,24 @@ Os objetivos específicos são:
 
 
 ##	Escopo
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O trabalho é feito por no máximo duas pessoas. O comerciante acompanha as tendências da moda através das mídias sociais, televisão, revistas e encartes enviados pelas lojas para acompanhamento das novidades e potencial comercial para seu público alvo. Com essas referências em mente, o primeiro passo é a compra das mercadorias.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O trabalho é feito por duas pessoas. O(A) comerciante acompanha as tendências da moda através das mídias sociais, televisão, revistas e encartes enviados pelas lojas para saber quais as novidades e potencial comercial para seu público alvo. Com essas referências em mente, o primeiro passo é a compra das mercadorias.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A vendedora entra em contato com uma agência que realiza viagens para cidades que possuam um centro comercial atacadista e consulta as datas previstas para as viagens e quais as cidades. Cada cidade possui um tipo específico de mercadorias, assim, caso a vendedora não tenha experiência com compras, ele pode consultar com o representante da agência, que saberá informar o melhor destino para seu publico alvo e as informações sobre condições de pagamento dos locais.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O(A) vendedor(a) entra em contato com uma agência que realiza viagens para cidades que possuam um centro comercial atacadista e consulta as datas previstas para as viagens e quais as cidades. Cada cidade possui um tipo específico de mercadorias, assim, caso o(a) vendedor(a) não tenha experiência com compras, ele pode consultar o representante da agência, que saberá informar o destino que melhor atenderá suas necessidades e passar informações sobre condições de pagamento dos locais.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No dia da viagem, a vendedora se dirige ao local onde o ônibus sairá e partem rumo a cidade destino. No destino, digire-se ao _shopping_ atacadista, a vendedora assiste desfiles de modas e consome a divulgação das mercadorias vendidas pelas lojas, afim de direcionar cada vendedor para a loja específica.
-Na loja, a vendedora analisa as mercadorias e realiza a compra, sempre de 3 (três) ou mais peças, por se tratar de atacado. É combinado com a vendedora da loja, o valor total, o desconto e a forma de pagamento, que podem ser à vista, cartão de crédito parcelado ou cheques pré-datados.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No dia da viagem, o(a) vendedor(a) se dirige ao local onde o ônibus sairá e partem rumo a cidade destino. Chegado ao destino, (o)a vendedor(a) assiste desfiles de modas e consome a divulgação das mercadorias feitas por cada loja, afim de fazer uma breve apresentação de quais mercadorias estão disponíveis para compra.
+Na loja, a vendedora analisa as mercadorias e efetiva a compra das peças que lhe interessaram, no mínimo 6 (seis) ou mais peças, por se tratar de lojas atacadistas. É combinado com o(a) vendedor(a) da loja, o valor total, o desconto e a forma de pagamento, que podem ser à vista, cartão de crédito parcelado ou cheques pré-datados.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As viagens tem duração de 1 ou 2 dias, variando conforme a agência e o destino escolhidos. No retorno da viagem com as mercadorias adquiridas, a vendedora organiza-se para fazer o controle de toda mercadoria adquirida.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As viagens tem duração de 1 ou 2 dias, variando conforme a agência e/ou destino escolhidos. No retorno, (o)a vendedor(a) organiza-se para fazer o controle e separação de toda mercadoria adquirida.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O primeiro passo é a organização das mercadorias para facilitar a marcação de preços. As mercadorias são separadas em grupos definidos por loja ou por marca. Após esta organização física, a vendedora anota cada peça, o tipo da mercadoria, por exemplo, calça, blusa, vestino, seu preço de custo e de venda em um caderno. A anotação do preço acontece tanto no caderno, quanto na etiqueta da peça, para facilitar a visualização do mesmo na hora da venda. Após esse processo, as mercadorias são separadas por tamanho (P, M, G, etc.) e guardadas em sacolas. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O primeiro passo é a organização das mercadorias para facilitar a marcação de preços, separando as mercadorias em grupos definidos por loja ou por marca. Após a organização física, o(a) vendedor(a) anota peça a peça o tipo da mercadoria, por exemplo, calça, blusa, vestido, seu preço de custo e de venda em um caderno. A anotação do preço acontece tanto no caderno, quanto em sua etiqueta, para facilitar a visualização do mesmo na hora da venda. Após esse processo, as mercadorias são separadas por tamanho (P, M, G, etc.) e guardadas em sacolas. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No processo seguinte, no mesmo caderno onde foram anotados os valores de cada mercadoria, é feita a somatória do total investido e do total a ser vendido. Caso as mercadorias tenham sido adquiridas por cheque pré-datado, é anotado o valor do cheque e a data a ser pago. Esses dados servirão de consulta para as contas a pagar por dia.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No processo seguinte, no mesmo caderno onde foram anotados os valores de cada mercadoria, é feita a somatória do valor total investido e do valor total a ser vendido. Caso as mercadorias tenham sido adquiridas por cheque pré-datado, é anotado o valor do cheque e a data a ser pago. Esses dados servirão de consulta para as contas a pagar por dia.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Terminado o processo de organização das mercadorias, a vendedora entra em contato com a sua carteira de cliente, sempre priorizando os clientes que possuem maior credibilidade no histórico de pagamentos e compras. No contato, é agendada a data e o local para que seja apresentado as mercadorias.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Terminado o processo de organização e separação das mercadorias, o(a) vendedor(a) entra em contato com a sua carteira de cliente, sempre priorizando os clientes que possuem maior credibilidade no histórico de pagamentos e compras. No contato, é informado que estão disponíveis noças mercadorias e caso o(a) cliente tenha interesse, é agendado a data e o local para que seja feita a apresentação.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Na data combinada, a vendedora vai até o local escolhido pelo cliente, que pode ser desde o local de trabalho, quanto sua própria casa, e apresenta as mercadorias do tamanho do cliente. Essa apresentação é feita com o próprio cliente escolhendo das peças que gostou e a vendedora opina sobre como fazer combinações entre peças, combinação de cores, combinação do próprio estilo da pessoa com a roupa.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Na data e hora combinada, o(a) vendedor(a) vai até o local escolhido pelo(a) cliente, que pode ser desde o local de trabalho ou sua própria casa, e apresenta as mercadorias de acordo com o tamanho do cliente. O(A) cliente assiste a apresentação e escolhe as peças que tem interesse em adquirir e a vendedora opina sobre como fazer combinações entre peças, combinação de cores, combinação do próprio estilo da pessoa com a roupa. O(A) cliente tem a possibilidade de experimentar a peça durante a visita.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No fim da visita, o cliente informa a vendedora quais as mercadorias que mais lhe agradaram e que ele deseja comprar. Caso seja um cliente novo, a vendedora pega uma pasta com as fichas de todos os clientes e cria uma nova ficha. Esta, deve conter informações básicas para o contato, como o nome completo, telefones para contato, endereço. Caso seja um cliente já antigo, a vendedora procura a ficha deste cliente. Em seguida, a vendedora soma o total e informa o cliente quais as condições disponíveis de pagamento. Essas, podem ser à vista ou à prazo (30/60/90 dias) no cheque ou na caderneta. Após o cliente escolher a forma de pagamento, é anotado em sua ficha as datas e o valor de cada parcela, junto com o valor total da compra.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No fim da visita, o cliente informa a vendedora quais as mercadorias que deseja adquirir. Caso seja um cliente novo, a vendedora pega uma pasta com as fichas de todos os clientes e cria uma nova ficha  que contém informações básicas para o contato, como o nome completo, telefones para contato, endereço. Caso seja um cliente já antigo, a vendedora procura a ficha deste cliente na pasta para fazer as anotações da compra. Em seguida, a vendedora soma o total e informa o cliente quais as condições disponíveis de pagamento. Essas, podem ser à vista ou à prazo (30/60/90 dias) no cheque ou na caderneta. Após o cliente escolher a forma de pagamento, é anotado em sua ficha as datas e o valor de cada parcela, junto com o valor total da compra.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Uma das condições mais usadas como condição de pagamento é o fiado. Esse método é baseado na confiança, ou seja, a cliente faz a compra, divide o valor total em no máximo 4 meses e informa o dia que poderá pagar a parcela. Na data informada, a vendedora entra em contato com a cliente para fazer o recebimento. O controle é todo feito através da ficha da cliente.
 
@@ -291,3 +291,15 @@ ___
     <td>Neste processo, o(a) cliente informa o(a) vendedor(a) qual a condição de pagamento que vai querer e o(a) vendedor(a) anota na ficha do(a) cliente o valor da parcela e as datas para o recebimento.</td>
   </tr>
 </table>
+
+## Descrição dos Stakeholders
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Definir Stakeholder e falar quem são- 
+
+## Definição do Problema
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Baseado no escopo de negócio, podemos afirmar que o problema é o controle de todas as atividades pertinentes ao trabalho do(a) comerciante serem feitas em papeis e caderno. Essa atitude apesar de ter sido adotada há muito tempo, possibilita as chances de alguma falha no processo acontecer, como por exemplo perda de dados de clientes ou de pagamentos a serem feitos, e também diminui de forma significativa a capacidade de analisar de forma precisa o histórico de venda para tomadas de decisão.
+
+## Diagrama de Ishikawa (Espinha de Peixe)
+-falta-
+
+## Lista de Restrições 
+-falta-
