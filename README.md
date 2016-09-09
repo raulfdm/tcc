@@ -11,7 +11,7 @@ Este repositório tem como objetivo controlar versão de todo o processo do meu 
 - [x] Escopo;
 - [x] Use case de Negócio;
 - [ ] Descrição dos Stakeholders;
-- [ ] Definição do Problema;
+- [x] Definição do Problema;
 - [ ] Diagrama de Espinha de Peixe;
 - [ ] Lista de Restrições;
 - [ ] Descrição Geral do Sistema (Abrangência/sistemas relacionados);
