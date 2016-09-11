@@ -10,9 +10,9 @@ Este repositório tem como objetivo controlar versão de todo o processo do meu 
 - [x] Introdução;
 - [x] Escopo;
 - [x] Use case de Negócio;
-- [ ] Descrição dos Stakeholders;
+- [x] Descrição dos Stakeholders;
 - [x] Definição do Problema;
-- [ ] Diagrama de Espinha de Peixe;
+- [x] Diagrama de Espinha de Peixe;
 - [ ] Lista de Restrições;
 - [ ] Descrição Geral do Sistema (Abrangência/sistemas relacionados);
 - [ ] Use case de Sistema;
