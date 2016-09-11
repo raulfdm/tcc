@@ -293,13 +293,13 @@ ___
 </table>
 
 ## Descrição dos Stakeholders
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Definir Stakeholder e falar quem são- 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O termo Stackholder se refere a uma pessoa ou grupo de pessoas interessadas  em uma empresa, negócio ou indústria. Assim, o stakeholder da empresa é a própria fundadora. 
 
 ## Definição do Problema
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Baseado no escopo de negócio, podemos afirmar que o problema é o controle de todas as atividades pertinentes ao trabalho do(a) comerciante serem feitas em papeis e caderno. Essa atitude apesar de ter sido adotada há muito tempo, possibilita as chances de alguma falha no processo acontecer, como por exemplo perda de dados de clientes ou de pagamentos a serem feitos, e também diminui de forma significativa a capacidade de analisar de forma precisa o histórico de venda para tomadas de decisão.
 
 ## Diagrama de Ishikawa (Espinha de Peixe)
--falta-
+![Use case de negócio](https://github.com/raulfdm/tcc/blob/master/Files/UML/use-case-negocio.png)
 
 ## Lista de Restrições 
 -falta-
