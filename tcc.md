@@ -302,4 +302,12 @@ ___
 ![Diagrama de causa e efeito (Ishikawa)](https://github.com/raulfdm/tcc/blob/master/Files/UML/img/diagrama-ishikawa.png)
 
 ## Lista de Restrições 
--falta-
+|   Restrição   | Descrição           
+| :-----------: |:-------------:
+| Linguagem de Programação (Front-end) | Javascript, HTML5, CSS3 
+| Servidor Web      |       
+| Banco de Dados e |  NoSQL (firebase)
+|      
+
+## Referências (em construção)
+Stakeholder: https://www.significados.com.br/stakeholder/
