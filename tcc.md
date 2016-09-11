@@ -48,7 +48,7 @@ Na loja, a vendedora analisa as mercadorias e efetiva a compra das peças que lh
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Logo, todos os dias pela manhã a vendedora consulta as fichas de cada cliente para verificar se há recebimentos a serem feitos naquele dia. Caso haja, é feito um contato com a mesma, que diz se a vendedora pode ou não fazer o recebimento. Caso a cliente não tenha dinheiro naquele dia, é agendado para uma nova data, substituindo a data anotada pela data informada pela cliente.
 
 ## Use Case de Negócio
-![Use case de negócio](https://github.com/raulfdm/tcc/blob/master/Files/UML/use-case-negocio.png)
+![Use case de negócio](https://github.com/raulfdm/tcc/blob/master/Files/UML/img/use-case-negocio.png)
 
 ### Descrição dos processos de negócio
 
@@ -299,7 +299,7 @@ ___
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Baseado no escopo de negócio, podemos afirmar que o problema é o controle de todas as atividades pertinentes ao trabalho do(a) comerciante serem feitas em papeis e caderno. Essa atitude apesar de ter sido adotada há muito tempo, possibilita as chances de alguma falha no processo acontecer, como por exemplo perda de dados de clientes ou de pagamentos a serem feitos, e também diminui de forma significativa a capacidade de analisar de forma precisa o histórico de venda para tomadas de decisão.
 
 ## Diagrama de Ishikawa (Espinha de Peixe)
-![Use case de negócio](https://github.com/raulfdm/tcc/blob/master/Files/UML/use-case-negocio.png)
+![Diagrama de causa e efeito (Ishikawa)](https://github.com/raulfdm/tcc/blob/master/Files/UML/img/diagrama-ishikawa.png)
 
 ## Lista de Restrições 
 -falta-
