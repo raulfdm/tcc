@@ -1,9 +1,8 @@
-# Menu
+# <a name="topo">Menu</a>
 1. [Introdução](#intro)
   1. [Objetivo Geral](#obj-geral)
   1. [Objetivos Específicos](#obj-espec)
   1. [Escopo](#escopo)
-
 1. [Análise do Negócio](#analise-de-negocio)
   1. [Use Case de Negócio](#use-case-negocio)
   1. [Descrição dos Processos de Negócio](#descricao-dos-processos)
@@ -26,8 +25,12 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Assim, o sistema deverá proporcionar um controle dos pagamentos e recebimentos, bem como exibir ao usuário todas as informações importantes para o início das atividades de forma automatizada, otimizando o tempo gasto nas tarefas manuais.
 
+[menu↑](#topo)
+
 ## <a name="obj-geral">Objetivo Geral</a>
 O objetivo deste projeto é criar um sistema de informação para uma empreendedora autônoma no seguimento de venda de roupas e acessórios.
+
+[menu↑](#topo)
 
 ## <a name="obj-espec">Objetivos Específicos</a>
 Os objetivos específicos são:
@@ -39,6 +42,7 @@ Os objetivos específicos são:
 * Implementar no sistema o acesso por perfis de usuário
 * Disparar e-mail list e mensagens para smartphones
 
+[menu↑](#topo)
 
 ##	<a name="escopo">Escopo</a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O trabalho é feito por duas pessoas. O(A) comerciante acompanha as tendências da moda através das mídias sociais, televisão, revistas e encartes enviados pelas lojas para saber quais as novidades e potencial comercial para seu público alvo. Com essas referências em mente, o primeiro passo é a compra das mercadorias.
@@ -64,10 +68,14 @@ Na loja, a vendedora analisa as mercadorias e efetiva a compra das peças que lh
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Logo, todos os dias pela manhã a vendedora consulta as fichas de cada cliente para verificar se há recebimentos a serem feitos naquele dia. Caso haja, é feito um contato com a mesma, que diz se a vendedora pode ou não fazer o recebimento. Caso a cliente não tenha dinheiro naquele dia, é agendado para uma nova data, substituindo a data anotada pela data informada pela cliente.
 
+[menu↑](#topo)
+
 # <a name="analise-de-negocio">Análise do Negócio</a>
 
 ## <a name="use-case-negocio">Use Case de Negócio</a>
 ![Use case de negócio](https://github.com/raulfdm/tcc/blob/master/Files/UML/img/use-case-negocio.png)
+
+[menu↑](#topo)
 
 ### <a name="descricao-dos-processos">Descrição dos processos de negócio</a>
 
@@ -311,14 +319,22 @@ ___
   </tr>
 </table>
 
+[menu↑](#topo)
+
 ## <a name="stakeholders">Descrição dos Stakeholders</a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O termo Stackholder se refere a uma pessoa ou grupo de pessoas interessadas  em uma empresa, negócio ou indústria. Assim, o stakeholder da empresa é a própria fundadora. 
+
+[menu↑](#topo)
 
 ## <a name="definicao-problema"> Definição do Problema</a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Baseado no escopo de negócio, podemos afirmar que o problema é o controle de todas as atividades pertinentes ao trabalho do(a) comerciante serem feitas em papeis e caderno. Essa atitude apesar de ter sido adotada há muito tempo, possibilita as chances de alguma falha no processo acontecer, como por exemplo perda de dados de clientes ou de pagamentos a serem feitos, e também diminui de forma significativa a capacidade de analisar de forma precisa o histórico de venda para tomadas de decisão.
 
+[menu↑](#topo)
+
 ## <a name="ishikawa>Diagrama de Causa e Efeito (Espinha de Peixe)</a>
 ![Diagrama de causa e efeito (Ishikawa)](https://github.com/raulfdm/tcc/blob/master/Files/UML/img/diagrama-ishikawa.png)
+
+[menu↑](#topo)
 
 ## <a name="restricoes">Lista de Restrições</a> 
 |   Restrição   | Descrição           
@@ -328,5 +344,9 @@ ___
 | Banco de Dados e |  NoSQL (firebase)
 |      
 
+[menu↑](#topo)
+
 ## <a name="referencias">Referências (em construção)</a>
 Stakeholder: https://www.significados.com.br/stakeholder/
+
+[menu↑](#topo)
