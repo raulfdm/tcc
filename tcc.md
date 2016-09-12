@@ -8,7 +8,7 @@
   1. [Descrição dos Processos de Negócio](#descricao-dos-processos)
   1. [Descrição dos Stakeholders](#stakeholders)
   1. [Definição do Problema](#definicao-problema)
-  1. [Diagrama de Causa e Efeito](#ishikawa)
+  1. [Diagrama de Causa e Efeito(Espinha de Peixe)](#ishikawa)
   1. [Lista de Restrições](#restricoes)
 
 1. [Referências](#referencias)
@@ -331,7 +331,7 @@ ___
 
 [menu↑](#topo)
 
-## <a name="ishikawa>Diagrama de Causa e Efeito (Espinha de Peixe)</a>
+## <a name="ishikawa">Diagrama de Causa e Efeito (Espinha de Peixe)</a>
 ![Diagrama de causa e efeito (Ishikawa)](https://github.com/raulfdm/tcc/blob/master/Files/UML/img/diagrama-ishikawa.png)
 
 [menu↑](#topo)
@@ -341,8 +341,7 @@ ___
 | :-----------: |:-------------:
 | Linguagem de Programação (Front-end) | Javascript, HTML5, CSS3 
 | Servidor Web      |       
-| Banco de Dados e |  NoSQL (firebase)
-|      
+| Banco de Dados e |  NoSQL (firebase)      
 
 [menu↑](#topo)
 
