@@ -1,4 +1,21 @@
-## Introdução 
+# Menu
+1. [Introdução](#intro)
+  1. [Objetivo Geral](#obj-geral)
+  1. [Objetivos Específicos](#obj-espec)
+  1. [Escopo](#escopo)
+
+1. [Análise do Negócio](#analise-de-negocio)
+  1. [Use Case de Negócio](#use-case-negocio)
+  1. [Descrição dos Processos de Negócio](#descricao-dos-processos)
+  1. [Descrição dos Stakeholders](#stakeholders)
+  1. [Definição do Problema](#definicao-problema)
+  1. [Diagrama de Causa e Efeito](#ishikawa)
+  1. [Lista de Restrições](#restricoes)
+
+1. [Referências](#referencias)
+
+
+# <a name="intro">Introdução</a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A empresa alvo deste projeto possui apenas duas pessoas, uma comerciante autônoma, vendedora de roupas e acessórios que atua no ramo há 25 anos e sua filha que está iniciando no ramo de vendas. Por se tretar de uma micro empresa, ambas cuidam de todas as áreas, desde as vendas, contas a pagar, contas a receber e até mesmo as compras de mercadorias. Seus(uas) clientes são pessoas físicas que as solicitam uma visita residencial para a apresentação das mercadorias trazidas de outras cidades, como por exemplo Rio Preto, São Paulo, Goiânia, entre outras.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Após realizada a apresentação e venda, a vendedora cria uma ficha cadastral, onde é anotado informações básicas para contato e identificação do cliente e informações gerais sobre as vendas realizadas, como a quantidade total da compra e as parcelas com suas respectivas datas de pagamento. 
@@ -9,10 +26,10 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Assim, o sistema deverá proporcionar um controle dos pagamentos e recebimentos, bem como exibir ao usuário todas as informações importantes para o início das atividades de forma automatizada, otimizando o tempo gasto nas tarefas manuais.
 
-###	Objetivo Geral
+## <a name="obj-geral">Objetivo Geral</a>
 O objetivo deste projeto é criar um sistema de informação para uma empreendedora autônoma no seguimento de venda de roupas e acessórios.
 
-###	Objetivos Específicos
+## <a name="obj-espec">Objetivos Específicos</a>
 Os objetivos específicos são:
 * Controlar a compra de mercadorias;
 * Manter um cadastro de todas clientes;
@@ -23,7 +40,7 @@ Os objetivos específicos são:
 * Disparar e-mail list e mensagens para smartphones
 
 
-##	Escopo
+##	<a name="escopo">Escopo</a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O trabalho é feito por duas pessoas. O(A) comerciante acompanha as tendências da moda através das mídias sociais, televisão, revistas e encartes enviados pelas lojas para saber quais as novidades e potencial comercial para seu público alvo. Com essas referências em mente, o primeiro passo é a compra das mercadorias.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O(A) vendedor(a) entra em contato com uma agência que realiza viagens para cidades que possuam um centro comercial atacadista e consulta as datas previstas para as viagens e quais as cidades. Cada cidade possui um tipo específico de mercadorias, assim, caso o(a) vendedor(a) não tenha experiência com compras, ele pode consultar o representante da agência, que saberá informar o destino que melhor atenderá suas necessidades e passar informações sobre condições de pagamento dos locais.
@@ -47,10 +64,12 @@ Na loja, a vendedora analisa as mercadorias e efetiva a compra das peças que lh
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Logo, todos os dias pela manhã a vendedora consulta as fichas de cada cliente para verificar se há recebimentos a serem feitos naquele dia. Caso haja, é feito um contato com a mesma, que diz se a vendedora pode ou não fazer o recebimento. Caso a cliente não tenha dinheiro naquele dia, é agendado para uma nova data, substituindo a data anotada pela data informada pela cliente.
 
-## Use Case de Negócio
+# <a name="analise-de-negocio">Análise do Negócio</a>
+
+## <a name="use-case-negocio">Use Case de Negócio</a>
 ![Use case de negócio](https://github.com/raulfdm/tcc/blob/master/Files/UML/img/use-case-negocio.png)
 
-### Descrição dos processos de negócio
+### <a name="descricao-dos-processos">Descrição dos processos de negócio</a>
 
 <table>
 <caption>Quadro 1 - Use Case de Negócio: Agendar Viagem</caption>
@@ -292,16 +311,16 @@ ___
   </tr>
 </table>
 
-## Descrição dos Stakeholders
+## <a name="stakeholders">Descrição dos Stakeholders</a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O termo Stackholder se refere a uma pessoa ou grupo de pessoas interessadas  em uma empresa, negócio ou indústria. Assim, o stakeholder da empresa é a própria fundadora. 
 
-## Definição do Problema
+## <a name="definicao-problema"> Definição do Problema</a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Baseado no escopo de negócio, podemos afirmar que o problema é o controle de todas as atividades pertinentes ao trabalho do(a) comerciante serem feitas em papeis e caderno. Essa atitude apesar de ter sido adotada há muito tempo, possibilita as chances de alguma falha no processo acontecer, como por exemplo perda de dados de clientes ou de pagamentos a serem feitos, e também diminui de forma significativa a capacidade de analisar de forma precisa o histórico de venda para tomadas de decisão.
 
-## Diagrama de Ishikawa (Espinha de Peixe)
+## <a name="ishikawa>Diagrama de Causa e Efeito (Espinha de Peixe)</a>
 ![Diagrama de causa e efeito (Ishikawa)](https://github.com/raulfdm/tcc/blob/master/Files/UML/img/diagrama-ishikawa.png)
 
-## Lista de Restrições 
+## <a name="restricoes">Lista de Restrições</a> 
 |   Restrição   | Descrição           
 | :-----------: |:-------------:
 | Linguagem de Programação (Front-end) | Javascript, HTML5, CSS3 
@@ -309,5 +328,5 @@ ___
 | Banco de Dados e |  NoSQL (firebase)
 |      
 
-## Referências (em construção)
+## <a name="referencias">Referências (em construção)</a>
 Stakeholder: https://www.significados.com.br/stakeholder/
