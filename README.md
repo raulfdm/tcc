@@ -13,7 +13,7 @@ Este repositório tem como objetivo controlar versão de todo o processo do meu 
 - [x] Descrição dos Stakeholders;
 - [x] Definição do Problema;
 - [x] Diagrama de Espinha de Peixe;
-- [ ] Lista de Restrições;
+- [x] Lista de Restrições;
 - [ ] Descrição Geral do Sistema (Abrangência/sistemas relacionados);
 - [ ] Use case de Sistema;
 - [ ] Diagrama de Classe;
