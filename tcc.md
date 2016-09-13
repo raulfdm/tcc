@@ -339,9 +339,10 @@ ___
 ## <a name="restricoes">Lista de Restrições</a> 
 |   Restrição   | Descrição           
 | :-----------: |:-------------:
-| Linguagem de Programação (Front-end) | Javascript, HTML5, CSS3 
-| Servidor Web      |       
-| Banco de Dados e |  NoSQL (firebase)      
+| Linguagem de Programação (Front-end) | Javascript, HTML5, CSS3, AngularJS 2
+| Servidor Web      |     Hospedagem LocaWeb  
+| Banco de Dados  |  NoSQL (Firebase)
+| Back-end | Firebase
 
 [menu↑](#topo)
 
