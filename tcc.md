@@ -352,10 +352,18 @@ ___
 
 [menu↑](#topo)
 
-# <a name="analise-sistema">Análise de Sistemas</a>
+# <a name="analise-sistema">Análise de Sistemas</a> (Revisar)
 
 ## <a name="descricao-geral-sistema">Descrição Geral do Sistema</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O objetivo do sistema é oferecer ao vendedor e microempresário a possibilidade de ter um controle mais preciso de todo o seu fluxo de trabalho e também fornecer informações que facilitem na tomada de decisão.
+O que ele vai resolver em nível geral
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O sistema deverá ter um cadastro de clientes e fornecedores com as informações essenciais de cada um. O sistema deverá ter um cadastro de pedido de compra, onde será informado o fornecedor, as mercadorias, o preço de custo e a porcentagem na qual será usada para projetar automaticamente o preço de venda. <TELA DE PRODUTO???>
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Também deverá ter um cadastro de pedidos de venda, onde deverá ser selecionado para qual cliente aquela venda se refere, selecionar a mercadoria que está sendo vendedida, calculando automaticamente o preço total, possibilidade de selecionar a condição de pagamento e com isso, definir as datas e valores de pagamentos. Esses valores deverão ser salvos individualmente para cada cliente em sua carteira.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cada cliente deverá ter uma carteira digital, onde poderá ser definido um limite de crédito para o cliente, bem como informar o histórico de compras do cliente e também mostrar as pendências de pagamento.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O sistema deverá ter relatórios que o informarão as contas a pagar e as contas a receber daquele dia em específico. Também deverá possuir uma agenda onde será possível ver as contas a pagar e receber em formato de calendário. Além disso, deverá contemplar um relatório de vendas por mês e ano, dando a possibilidade de comparar os meses e de venda e os mesmos períodos em diferentes anos. Deverá contemplar um relatório de inadinplência e atrasos, mostrando quais os clientes que devedores, o valor total e o comparativo de periodos.
 
 [menu↑](#topo)
 
