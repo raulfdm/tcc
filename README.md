@@ -7,17 +7,20 @@ Este repositório tem como objetivo controlar versão de todo o processo do meu 
 [Calendário de entregas](https://raulfdm.github.io/tcc-calendar/)
 
 #### Entregas
-- [x] Introdução;
-- [x] Escopo;
-- [x] Use case de Negócio;
-- [x] Descrição dos Stakeholders;
-- [x] Definição do Problema;
-- [x] Diagrama de Espinha de Peixe;
-- [x] Lista de Restrições;
-- [ ] Descrição Geral do Sistema (Abrangência/sistemas relacionados);
-- [ ] Use case de Sistema;
-- [ ] Diagrama de Classe;
-- [ ] Diagrama de Sequência;
-- [ ] Diagrama MER e DER;
-- [ ] Storyboad (telas do sistema);
-- [ ] Entrega: 3 cópias espiraladas.
+- [x] Introdução; (02/09/2016)
+- [x] Escopo; (02/09/2016)
+- [x] Use case de Negócio; (06 e 07/09/2016)
+- [x] Descrição dos Stakeholders; (13/09/2016)
+- [x] Definição do Problema; (13/09/2016)
+- [x] Diagrama de Espinha de Peixe; (13/09/2016)
+- [x] Lista de Restrições; (13/09/2016)
+- [ ] Descrição Geral do Sistema (Abrangência/sistemas relacionados); (20/09/2016)
+- [ ] Proposta; (20/09/2016)
+- [x] Fronteira Sistêmica; (20/09/2016)
+- [ ] Use case de Sistema; (27/09/2016)
+- [ ] PRÉ-BANCA - Apresentação 10 minutos; (04 a 11/10/2016)
+- [ ] Diagrama de Classe; (25/10/2016)
+- [ ] Diagrama de Sequência; (01/11/2016)
+- [ ] Diagrama MER e DER; (08/11/2016)
+- [ ] Storyboad (telas do sistema); (22/11/2016)
+- [ ] Entrega: 3 cópias espiraladas. (29/11/2016)
