@@ -365,7 +365,8 @@ ___
 [menu↑](#topo)
 
 ## <a name="fronteira-sistemica">Fronteira Sistêmica</a>
-
+Na figura abaixo, é exibido a interação dos atores com o sistema.
+![Fronteira Sistêmica](https://github.com/raulfdm/tcc/blob/master/Files/UML/img/fronteira-sistemica2.png)
 
 [menu↑](#topo)
 
