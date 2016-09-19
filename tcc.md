@@ -356,7 +356,8 @@ ___
 
 ## <a name="descricao-geral-sistema">Descrição Geral do Sistema</a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O objetivo do sistema é oferecer ao vendedor e microempresário a possibilidade de ter um controle mais preciso de todo o seu fluxo de trabalho e também fornecer informações que facilitem na tomada de decisão.
-O que ele vai resolver em nível geral
+O que ele vai resolver em nível geral é extingir o uso de anotações em cadernos, evitando possíveis falhas humanas ao consultar dados
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O sistema deverá ter um cadastro de clientes e fornecedores com as informações essenciais de cada um. O sistema deverá ter um cadastro de pedido de compra, onde será informado o fornecedor, as mercadorias, o preço de custo e a porcentagem na qual será usada para projetar automaticamente o preço de venda. <TELA DE PRODUTO???>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Também deverá ter um cadastro de pedidos de venda, onde deverá ser selecionado para qual cliente aquela venda se refere, selecionar a mercadoria que está sendo vendedida, calculando automaticamente o preço total, possibilidade de selecionar a condição de pagamento e com isso, definir as datas e valores de pagamentos. Esses valores deverão ser salvos individualmente para cada cliente em sua carteira.
@@ -369,6 +370,13 @@ O que ele vai resolver em nível geral
 
 ## <a name="proposta">Proposta</a>
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A proposta do sistema é desenvolver o sistema tanto para Web quanto para Mobile, utilizando a tecnologia React e React Native. O React é um framework desenvolvido pelo Facebook com o intuito de componentizar toda a aplicação. Seu desenvolvimento é feito através da linguagem de programação Javascript, junto com o padrão Web, HTML (Hypertext Markup Language) para marcar e estruturar as informações e CSS (Cascading Style Sheet) para dar estilo aos elementos. 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Com o React Native, será possível utilizar o mesmo código da aplicação Web feita apenas com o React e gerar aplicações nativas para Android e iOS, que possuem respectivamente 66,87% e 27,2% do mercado de smartphone global. Assim, a manutenção será facilitada, pois, uma vez que algo for corrigido na aplicação web, a correção poderá ser migrada rapidamente para os aplicativos.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No que se refere à estrutura de servidor e banco de dados, será utilizado o serviço do google chamado Firebase. A proposta do Firebase é fornecer um back-end como serviço (Back-end as a Service - BaaS), ou seja, eles fornecem um servidor preparado com banco de dados, serviço de armazenamento de arquivos, autenticação e uma API Rest (Representation State Transfer), que, utiliza o protocolo HTTP para fazer operações como obtenção, inserção, alteração e deleção de dados, usando objetos JSON (Javascript Object Notation).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O banco de dados utilizado pelo Firebase é um banco de dados NoSQL, ou seja, não relacional. Bancos de dados não relacionais são baseados apenas em documentos, e com isso, não fazem relação entre os documentos, tão pouco validações de chaves primarias ou estrangeiras, assim, tendo foco total em escalabilidade e o armazenamento de grandes massas de dados, com baixo custo, uma vez que esses documentos são escritados baseados em Objetos Javascript. Com esse comportamento, toda a responsabilidade da integridade dos dados para o banco de dados fica por conta da aplicação que o utiliza. 
 
 [menu↑](#topo)
 
@@ -380,5 +388,9 @@ Na figura abaixo, é exibido a interação dos atores com o sistema.
 
 ## <a name="referencias">Referências (em construção)</a>
 Stakeholder: https://www.significados.com.br/stakeholder/
+Estatísticas dos Smartphones: https://www.netmarketshare.com/operating-system-market-share.aspx?qprid=8&qpcustomd=1
+JSON: http://www.w3schools.com/json/
+Firebase: https://firebase.google.com/features/
+NoSQL: http://blog.caelum.com.br/bancos-de-dados-nao-relacionais-e-o-movimento-nosql/
 
 [menu↑](#topo)
