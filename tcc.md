@@ -389,12 +389,12 @@ Na figura abaixo, é exibido a interação dos atores com o sistema.
 [menu↑](#topo)
 
 ## <a name="referencias">Referências (em construção)</a>
-Stakeholder: https://www.significados.com.br/stakeholder/
-Estatísticas dos Smartphones: https://www.netmarketshare.com/operating-system-market-share.aspx?qprid=8&qpcustomd=1
-JSON: http://www.w3schools.com/json/
-Firebase: https://firebase.google.com/features/
-NoSQL: http://blog.caelum.com.br/bancos-de-dados-nao-relacionais-e-o-movimento-nosql/
-React: https://facebook.github.io/react/
-React Native: https://facebook.github.io/react-native/
+* Stakeholder: https://www.significados.com.br/stakeholder/
+* Estatísticas dos Smartphones: https://www.netmarketshare.com/operating-system-market-share.aspx?qprid=8&qpcustomd=1
+* JSON: http://www.w3schools.com/json/
+* Firebase: https://firebase.google.com/features/
+* NoSQL: http://blog.caelum.com.br/bancos-de-dados-nao-relacionais-e-o-movimento-nosql/
+* React: https://facebook.github.io/react/
+* React Native: https://facebook.github.io/react-native/
 
 [menu↑](#topo)
