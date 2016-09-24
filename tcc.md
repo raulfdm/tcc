@@ -327,13 +327,13 @@ ___
 
 [menu↑](#topo)
 
-## <a name="stakeholders">Descrição dos Stakeholders</a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O termo Stackholder se refere a uma pessoa ou grupo de pessoas interessadas  em uma empresa, negócio ou indústria. Assim, o stakeholder da empresa é a própria fundadora. 
+## <a name="stakeholders">Descrição dos <i>Stakeholders</i> </a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O termo *Stackholder* se refere a uma pessoa ou grupo de pessoas interessadas  em uma empresa, negócio ou indústria. Assim, o *stakeholder* da empresa é a própria fundadora. 
 
 [menu↑](#topo)
 
 ## <a name="definicao-problema"> Definição do Problema</a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Baseado no escopo de negócio, podemos afirmar que o problema é o controle de todas as atividades pertinentes ao trabalho do(a) comerciante serem feitas em papeis e caderno. Essa atitude apesar de ter sido adotada há muito tempo, possibilita as chances de alguma falha no processo acontecer, como por exemplo perda de dados de clientes ou de pagamentos a serem feitos, e também diminui de forma significativa a capacidade de analisar de forma precisa o histórico de venda para tomadas de decisão.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Baseado no escopo de negócio, pode-se afirmar que o problema é o controle de todas as atividades pertinentes ao trabalho do(a) comerciante serem feitas em papeis e caderno. Essa atitude apesar de ter sido adotada há muito tempo, possibilita as chances de alguma falha no processo acontecer, como por exemplo perda de dados de clientes ou de pagamentos a serem feitos, e também diminui de forma significativa a capacidade de analisar precisamente o histórico de venda para tomadas de decisão.
 
 [menu↑](#topo)
 
