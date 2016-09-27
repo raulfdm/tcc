@@ -16,6 +16,8 @@
   1. [Descrição Geral do Sistema](#descricao-geral-sistema)
   1. [Proposta](#proposta)
   1. [Fronteira Sistêmica](#fronteira-sistemica)
+  1. [Use Case de Sistema](#use-case-sistema)
+    1. [Descrição dos Processos de Sistema](#descricao-dos-processos-sistema)
 
 1. [Referências](#referencias)
 
@@ -384,13 +386,15 @@ Em linhas gerais, a proposta é extingir o uso de anotações manuais em papel, 
 
 ## <a name="fronteira-sistemica">Fronteira Sistêmica</a>
 Na figura abaixo, é exibido a interação dos atores com o sistema.
+
 ![Fronteira Sistêmica](https://github.com/raulfdm/tcc/blob/master/Files/UML/img/fronteira-sistemica2.png)
 
 [menu↑](#topo)
 
-## <a name="use-case-sistema">Use Case de Sistema</a>
+## <a name="use-case-sistema">Fronteira Sistêmica</a>
 Na figura abaixo, é exibido o diagrama de caso de uso de sistema.
-![Use Case de Sistema](https://github.com/raulfdm/tcc/tree/master/Files/UML/img/use-case-sistema.png)
+
+![Use Case de Sistema](https://github.com/raulfdm/tcc/blob/master/Files/UML/img/use-case-sistema.png)
 
 [menu↑](#topo)
 
