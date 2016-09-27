@@ -17,7 +17,7 @@ Este repositório tem como objetivo controlar versão de todo o processo do meu 
 - [x] Descrição Geral do Sistema (Abrangência/sistemas relacionados); (20/09/2016)
 - [x] Proposta; (20/09/2016)
 - [x] Fronteira Sistêmica; (20/09/2016)
-- [ ] Use case de Sistema; (27/09/2016)
+- [x] Use case de Sistema; (27/09/2016)
 - [ ] PRÉ-BANCA - Apresentação 10 minutos; (04 a 11/10/2016)
 - [ ] Diagrama de Classe; (25/10/2016)
 - [ ] Diagrama de Sequência; (01/11/2016)
