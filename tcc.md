@@ -388,6 +388,161 @@ Na figura abaixo, é exibido a interação dos atores com o sistema.
 
 [menu↑](#topo)
 
+## <a name="use-case-sistema">Use Case de Sistema</a>
+Na figura abaixo, é exibido o diagrama de caso de uso de sistema.
+![Use Case de Sistema](https://github.com/raulfdm/tcc/tree/master/Files/UML/img/use-case-sistema.png)
+
+[menu↑](#topo)
+
+### <a name="descricao-dos-processos-sistema">Descrição dos Processos de Sistema</a>
+
+<table>
+<caption>Quadro 17 - Use Case de Sistema: Cadastrar Venda</caption>
+  <tr>
+  <td>Use Case de Sistema:</td>
+    <td>Cadastrar Venda</td>
+  </tr>
+  <tr>
+  <td>Ator(es):</td>
+    <td>Vendedor(a)</td>
+  </tr>
+  <tr>
+  <td>Descrição:</td>
+    <td>Nessa tela do sistema, o vendedor(a) poderá cadastrar um pedido de venda, informando a qual cliente que se destina, as mercadorias, quantidades, valores, somatório do total e a forma de pagamento. Caso seja parcelado, o sistema informará quais as datas de pagamento.</td>
+  </tr>
+</table>
+---
+<table>
+<caption>Quadro 18 - Use Case de Sistema: Cadastrar Compra</caption>
+  <tr>
+  <td>Use Case de Sistema:</td>
+    <td>Cadastrar Compra</td>
+  </tr>
+  <tr>
+  <td>Ator(es):</td>
+    <td>Vendedor(a)</td>
+  </tr>
+  <tr>
+  <td>Descrição:</td>
+    <td>Nesta tela, o vendedor(a) poderá cadastrar um pedido de compra, selecionando de qual fornecedor(loja) aquela compra se fere, a data da compra, o valor, a forma e condições de pagamento, os produtos e a margem de lucro que seja calculada em cima de cada produto.</td>
+  </tr>
+</table>
+---
+<table>
+<caption>Quadro 19 - Use Case de Sistema: Cadastrar Fornecedor</caption>
+  <tr>
+  <td>Use Case de Sistema:</td>
+    <td>Cadastrar Forcedor</td>
+  </tr>
+  <tr>
+  <td>Ator(es):</td>
+    <td>Vendedor(a)</td>
+  </tr>
+  <tr>
+  <td>Descrição:</td>
+    <td>Nesta tela, o vendedor(a) poderá cadastrar o forcedor, informando todas as informações básicas do mesmo.</td>
+  </tr>
+</table>
+---
+<table>
+<caption>Quadro 20 - Use Case de Sistema: Cadastrar Cliente</caption>
+  <tr>
+  <td>Use Case de Sistema:</td>
+    <td>Cadastrar Cliente</td>
+  </tr>
+  <tr>
+  <td>Ator(es):</td>
+    <td>Vendedor(a)</td>
+  </tr>
+  <tr>
+  <td>Descrição:</td>
+    <td>Nesta tela, o(a) vendedor(a) poderá cadastrar o cliente com as informações básicas e essências para contato e cobrança.</td>
+  </tr>
+</table>
+---
+<table>
+<caption>Quadro 21 - Use Case de Sistema: Cadastrar Produto</caption>
+  <tr>
+  <td>Use Case de Sistema:</td>
+    <td>Cadastrar Produto</td>
+  </tr>
+  <tr>
+  <td>Ator(es):</td>
+    <td>Vendedor(a)</td>
+  </tr>
+  <tr>
+  <td>Descrição:</td>
+    <td>Nesta tela, o(a) vendedor(a) poderá cadastrar o produto, informando qual seu fornecedor e as informações que o qualifiquem.</td>
+  </tr>
+</table>
+---
+<table>
+<caption>Quadro 22 - Use Case de Sistema: Consultar Pedidos de Compra</caption>
+  <tr>
+  <td>Use Case de Sistema:</td>
+    <td>Consultar Pedidos de Compra</td>
+  </tr>
+  <tr>
+  <td>Ator(es):</td>
+    <td>Vendedor(a)</td>
+  </tr>
+  <tr>
+  <td>Descrição:</td>
+    <td>Nesta tela, o(a) vendedor(a) poderá consultar todos os pedidos de compra filtrando por fornecedor ou período.</td>
+  </tr>
+</table>
+---
+<table>
+<caption>Quadro 23 - Use Case de Sistema: Consultar Pedidos de Venda</caption>
+  <tr>
+  <td>Use Case de Sistema:</td>
+    <td>Consultar Pedidos de Venda</td>
+  </tr>
+  <tr>
+  <td>Ator(es):</td>
+    <td>Vendedor(a)</td>
+  </tr>
+  <tr>
+  <td>Descrição:</td>
+    <td>Nesta tela, o(a) vendedor(a) poderá consultar todos os pedidos de venda, filtrando por cliente ou período.</td>
+  </tr>
+</table>
+---
+<table>
+<caption>Quadro 24 - Use Case de Sistema: Consultar Relatórios</caption>
+  <tr>
+  <td>Use Case de Sistema:</td>
+    <td>Consultar Relatórios</td>
+  </tr>
+  <tr>
+  <td>Ator(es):</td>
+    <td>Vendedor(a)</td>
+  </tr>
+  <tr>
+  <td>Descrição:</td>
+    <td>Nesta tela, o(a) vendedor(a) poderá retirar os relatórios analíticos e detalhado da sua operação.</td>
+  </tr>
+</table>
+---
+<table>
+<caption>Quadro 25 - Use Case de Sistema: Consultar Carteira Digital</caption>
+  <tr>
+  <td>Use Case de Sistema:</td>
+    <td>Consultar Carteira Digital</td>
+  </tr>
+  <tr>
+  <td>Ator(es):</td>
+    <td>Vendedor(a) e Cliente</td>
+  </tr>
+  <tr>
+  <td>Descrição:</td>
+    <td>Esta tela, poderá ser acessada tanto pelo(a) vendedor(a), quanto pelo cliente. Nela, será exibida as informações do cliente, como suas informações cadastrais. Também será exibida um histórico de pagamentos e compras, bem como os débitos pendentes.</td>
+  </tr>
+</table>
+---
+
+[menu↑](#topo)
+
 ## <a name="referencias">Referências (em construção)</a>
 * Stakeholder: https://www.significados.com.br/stakeholder/
 * Estatísticas dos Smartphones: https://www.netmarketshare.com/operating-system-market-share.aspx?qprid=8&qpcustomd=1
