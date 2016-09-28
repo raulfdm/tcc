@@ -346,11 +346,11 @@ ___
 
 ## <a name="restricoes">Lista de Restrições</a> 
 |   Restrição   | Descrição     | Motivo
-| :-----------: |:-------------:|
+| :-----------: |:-------------:|:-------------:| 
 | Linguagem de Programação (Front-end) | Javascript, HTML5, CSS3, React | 
-| Servidor Web      |     Hospedagem LocaWeb  
-| Banco de Dados  |  NoSQL (Firebase)
-| Back-end | Firebase
+| Servidor Web      |     Hospedagem LocaWeb  |
+| Banco de Dados  |  NoSQL (Firebase) |
+| Back-end | Firebase|
 
 [menu↑](#topo)
 
