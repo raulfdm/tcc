@@ -401,7 +401,7 @@ Na figura abaixo, é exibido o diagrama de caso de uso de sistema.
 ### <a name="descricao-dos-processos-sistema">Descrição dos Processos de Sistema</a>
 
 <table>
-<caption>Quadro 17 - Use Case de Sistema: Cadastrar Venda</caption>
+<caption>Quadro 17 - Use Case de Sistema: Gerar Pedido de Venda</caption>
   <tr>
   <td>Use Case de Sistema:</td>
     <td>Cadastrar Venda</td>
@@ -417,7 +417,7 @@ Na figura abaixo, é exibido o diagrama de caso de uso de sistema.
 </table>
 ---
 <table>
-<caption>Quadro 18 - Use Case de Sistema: Cadastrar Compra</caption>
+<caption>Quadro 18 - Use Case de Sistema: Gerar Pedido de Compra</caption>
   <tr>
   <td>Use Case de Sistema:</td>
     <td>Cadastrar Compra</td>
@@ -541,6 +541,22 @@ Na figura abaixo, é exibido o diagrama de caso de uso de sistema.
   <tr>
   <td>Descrição:</td>
     <td>Esta tela, poderá ser acessada tanto pelo(a) vendedor(a), quanto pelo cliente. Nela, será exibida as informações do cliente, como suas informações cadastrais. Também será exibida um histórico de pagamentos e compras, bem como os débitos pendentes.</td>
+  </tr>
+</table>
+---
+<table>
+<caption>Quadro 26 - Use Case de Sistema: Autenticar no Sistema</caption>
+  <tr>
+  <td>Use Case de Sistema:</td>
+    <td>Autenticar no Sistema</td>
+  </tr>
+  <tr>
+  <td>Ator(es):</td>
+    <td>Vendedor(a) e Cliente</td>
+  </tr>
+  <tr>
+  <td>Descrição:</td>
+    <td>Para ter acesso à todas as informações do sistema, tanto o(a) vendedor(a), quanto o(a) cliente, farão uma autenticação no sistema. Essa, será disparada para o servidor da google e retornará autorizando ou não a entrada do usuário.</td>
   </tr>
 </table>
 ---
