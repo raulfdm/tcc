@@ -335,7 +335,7 @@ ___
 [menu↑](#topo)
 
 ## <a name="definicao-problema"> Definição do Problema</a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Baseado no escopo de negócio, pode-se afirmar que o problema é o controle de todas as atividades pertinentes ao trabalho do(a) comerciante serem feitas em papeis e caderno. Essa atitude apesar de ter sido adotada há muito tempo, possibilita as chances de alguma falha no processo acontecer, como por exemplo perda de dados de clientes ou de pagamentos a serem feitos, e também diminui de forma significativa a capacidade de analisar precisamente o histórico de venda para tomadas de decisão.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Baseado no escopo de negócio, pode-se afirmar que o problema é a ineficiência no controle de todas as atividades pertinentes ao trabalho do(a) comerciante, atualmente serem feitas em papeis e caderno. Essa atitude apesar de ter sido adotada há muito tempo, possibilita as chances de alguma falha no processo acontecer, como por exemplo perda de dados de clientes ou de pagamentos a serem feitos, e também diminui de forma significativa a capacidade de analisar precisamente o histórico de venda para tomadas de decisão.
 
 [menu↑](#topo)
 
@@ -345,9 +345,9 @@ ___
 [menu↑](#topo)
 
 ## <a name="restricoes">Lista de Restrições</a> 
-|   Restrição   | Descrição           
-| :-----------: |:-------------:
-| Linguagem de Programação (Front-end) | Javascript, HTML5, CSS3, AngularJS 2
+|   Restrição   | Descrição     | Motivo
+| :-----------: |:-------------:|
+| Linguagem de Programação (Front-end) | Javascript, HTML5, CSS3, React | 
 | Servidor Web      |     Hospedagem LocaWeb  
 | Banco de Dados  |  NoSQL (Firebase)
 | Back-end | Firebase
@@ -374,13 +374,13 @@ Em linhas gerais, a proposta é extingir o uso de anotações manuais em papel, 
 
 ## <a name="proposta">Proposta</a>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A proposta é desenvolver o sistema tanto para Web quanto para Mobile, baseado nas tecnologias React e React Native. O React é um framework desenvolvido pelo Facebook com o intuito de componentizar toda a aplicação. Seu desenvolvimento é feito através da linguagem de programação Javascript, junto com o padrão Web, HTML (Hypertext Markup Language) para marcar e estruturar as informações e CSS (Cascading Style Sheet) para dar estilo aos elementos. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A proposta é desenvolver o sistema *Web*, baseado nas tecnologias React. O React é um *framework* desenvolvido pela empresa Facebook com o intuito de componentizar toda a aplicação. Seu desenvolvimento é feito através da linguagem de programação Javascript, junto com o padrão *Web*, HTML (Hypertext Markup Language) para marcação e estruturação das informações e CSS (Cascading Style Sheet) para dar estilo aos elementos. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O React Native, possibilita a reutilização de código React da aplicação Web para gerar aplicações nativas para Android e iOS, que atualmente possuem respectivamente 66,87% e 27,2% do mercado de smartphone global. Assim, a manutenção será facilitada, pois, uma vez que algo for corrigido na aplicação web, a correção poderá ser migrada rapidamente para os aplicativos mobile.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O sistema será pensado utilizando o conceito de PWA (Progressive Web Apps), ou seja, uma aplicação *web*, mas feita pensando em dispositivos móveis (*smartphones* e *tablets*), na qual gera uma experiência ao usuário de ao abrir o *site*, ter a sensação de utilizar um *app* nativo.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No que se refere à estrutura de servidor e banco de dados, será utilizado o serviço do Google chamado Firebase. A proposta do Firebase é fornecer um back-end como serviço (Back-end as a Service - BaaS), ou seja, eles fornecem um servidor preparado com banco de dados, serviço de armazenamento de arquivos, autenticação e uma API Rest (Representation State Transfer), que, utiliza o protocolo HTTP para fazer operações como obtenção, inserção, alteração e deleção de dados, usando objetos JSON (Javascript Object Notation).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No que se refere à estrutura de servidor e banco de dados, será utilizado o serviço do Google chamado Firebase. A proposta do Firebase é fornecer um *back-end* como serviço (Back-end as a Service - BaaS), ou seja, eles fornecem um servidor preparado com banco de dados, serviço de armazenamento de arquivos e autenticação, tudo através de API Rest (Representation State Transfer), que, utiliza o protocolo HTTP para fazer operações como obtenção, inserção, alteração e deleção de dados, usando objetos JSON (Javascript Object Notation).
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O banco de dados utilizado pelo Firebase é um banco de dados NoSQL, ou seja, não relacional. Bancos de dados não relacionais são baseados apenas em documentos, e com isso, não possuem relacionamento entre os documentos, tão pouco validações de chaves primarias ou estrangeiras, assim, tendo foco total em escalabilidade e o armazenamento de grandes massas de dados e com baixo custo, uma vez que esses documentos estão em formato de objetos Javascript. Com esse comportamento, toda a responsabilidade da integridade dos dados para o banco de dados fica por conta da aplicação que o utiliza. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O sistema de banco de dados utilizado pelo Firebase é um banco de dados NoSQL(Not Only Structure Query Language), ou seja, não relacional. Bancos de dados não relacionais são baseados apenas em documentos, e com isso, não possuem relacionamento entre os documentos, tão pouco validações de chaves primarias ou estrangeiras. Assim, o foco deste tipo de banco de dados fica em escalabilidade e o armazenamento de grandes massas de dados. Logo, uma vez que esses documentos estão em formato de objetos Javascript o custo de armanezagem de dados cai consideravelmente. Com esse comportamento, toda a responsabilidade da integridade dos dados para o banco de dados fica por conta da aplicação que o utiliza. 
 
 [menu↑](#topo)
 
@@ -549,11 +549,9 @@ Na figura abaixo, é exibido o diagrama de caso de uso de sistema.
 
 ## <a name="referencias">Referências (em construção)</a>
 * Stakeholder: https://www.significados.com.br/stakeholder/
-* Estatísticas dos Smartphones: https://www.netmarketshare.com/operating-system-market-share.aspx?qprid=8&qpcustomd=1
 * JSON: http://www.w3schools.com/json/
 * Firebase: https://firebase.google.com/features/
 * NoSQL: http://blog.caelum.com.br/bancos-de-dados-nao-relacionais-e-o-movimento-nosql/
 * React: https://facebook.github.io/react/
-* React Native: https://facebook.github.io/react-native/
 
 [menu↑](#topo)
