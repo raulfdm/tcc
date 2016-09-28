@@ -387,7 +387,7 @@ Em linhas gerais, a proposta é extingir o uso de anotações manuais em papel, 
 ## <a name="fronteira-sistemica">Fronteira Sistêmica</a>
 Na figura abaixo, é exibido a interação dos atores com o sistema.
 
-![Fronteira Sistêmica](https://github.com/raulfdm/tcc/blob/master/Files/UML/img/fronteira-sistemica2.png)
+![Fronteira Sistêmica](https://github.com/raulfdm/tcc/blob/master/Files/UML/img/fronteira-sistemica.png)
 
 [menu↑](#topo)
 
