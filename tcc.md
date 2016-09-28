@@ -360,21 +360,21 @@ ___
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O objetivo do sistema é oferecer ao vendedor e microempresário a possibilidade de ter um controle mais preciso de todo o seu fluxo de trabalho e também fornecer informações que facilitem na tomada de decisão.
 Em linhas gerais, a proposta é extingir o uso de anotações manuais em papel, e trabalhar com as informações inseridas de forma inteligente.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O sistema deverá ter um cadastro de clientes e fornecedores com as informações essenciais de cada um. Deverá ter um cadastro de pedido de compra, onde será informado o fornecedor, as mercadorias, o preço de custo e a porcentagem na qual será usada para projetar automaticamente o preço de venda. O produto poderá ser cadastrado tanto pela tela de pedido de compra, quanto pela tela de produto, devendo ser inseridas informações inerentes ao mesmo.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O sistema terá um cadastro de clientes e fornecedores com as informações essenciais de cada um. Também terá um cadastro de pedido de compra, onde será informado o fornecedor, as mercadorias, o preço de custo e a porcentagem na qual será usada para projetar automaticamente o preço de venda. O produto poderá ser cadastrado tanto pela tela de pedido de compra, quanto pela tela de produto, devendo ser inseridas informações inerentes ao mesmo.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Também deverá possuir um cadastro de pedidos de venda, onde será selecionado a qual cliente a venda se refere, selecionar a mercadoria que está sendo vendedida, calculando automaticamente o preço total, de acordo com o valor estabelicido no pedido de compra, possibilitar a seleção da forma de pagamento e com isso, definir as datas e valores de pagamentos. Esses valores deverão ser salvos individualmente para cada cliente em sua carteira.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cada cliente deverá ter uma carteira digital, onde poderá ser definido um limite de crédito para o cliente, bem como informar o histórico de compras e pagmentos efetuados ou pendentes do cliente.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O sistema deverá fornecer relatórios que informarão ao vendedor as contas à pagar e à receber do dia. Também deverá possuir uma agenda onde será possível ver essas mesmas informações, mas, em formato de calendário. Além disso, deverá gerar um relatório de vendas por semana, mês ou ano, dando a possibilidade de comparar os meses e de venda e os mesmos períodos em diferentes anos. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O sistema fornecerá relatórios que informarão ao vendedor as contas à pagar e à receber do dia. Também deverá possuir uma agenda onde será possível ver essas mesmas informações, mas, em formato de calendário. Além disso, deverá gerar um relatório de vendas por semana, mês ou ano, dando a possibilidade de comparar os meses e de venda e os mesmos períodos em diferentes anos. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Deverá possuir um relatório de inadinplência e atrasos, mostrando quais os clientes devedores de forma rankeada (maior para o menor ou menor para o maior), bem como exibir o valor total da receita pendente de recebimento.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O sistema fará também a emissão de relatório de inadimplência e atrasos, mostrando quais os clientes devedores de forma rankeada (maior para o menor ou menor para o maior), bem como exibir o valor total da receita pendente de recebimento.
 
 [menu↑](#topo)
 
 ## <a name="proposta">Proposta</a>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A proposta do sistema é desenvolver o sistema tanto para Web quanto para Mobile, utilizando a tecnologia React e React Native. O React é um framework desenvolvido pelo Facebook com o intuito de componentizar toda a aplicação. Seu desenvolvimento é feito através da linguagem de programação Javascript, junto com o padrão Web, HTML (Hypertext Markup Language) para marcar e estruturar as informações e CSS (Cascading Style Sheet) para dar estilo aos elementos. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A proposta é desenvolver o sistema tanto para Web quanto para Mobile, baseado nas tecnologias React e React Native. O React é um framework desenvolvido pelo Facebook com o intuito de componentizar toda a aplicação. Seu desenvolvimento é feito através da linguagem de programação Javascript, junto com o padrão Web, HTML (Hypertext Markup Language) para marcar e estruturar as informações e CSS (Cascading Style Sheet) para dar estilo aos elementos. 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O React Native, possibilita a reutilização de código React da aplicação Web para gerar aplicações nativas para Android e iOS, que atualmente possuem respectivamente 66,87% e 27,2% do mercado de smartphone global. Assim, a manutenção será facilitada, pois, uma vez que algo for corrigido na aplicação web, a correção poderá ser migrada rapidamente para os aplicativos mobile.
 
