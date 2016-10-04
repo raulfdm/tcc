@@ -26,5 +26,6 @@ li:before{
 }
 .titulo-case-sistema{
     color: #2c3e50 !important;
+    text-align: left;
 }
 /*#1b91ff -> #3498db*/
