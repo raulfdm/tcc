@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>reveal.js</title>
+
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/night.css">
+	<link rel="stylesheet" href="css/my.css">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<!--Slide #1 - Inicial-->
+			<section class="left">
+				<h2>Projeto de Integração e Modelagem</h1>
+					<span>Raul Felipe de Melo - 816587</span>
+			</section>
+
+			<!--Slide #2 - Cenário/Cliente-->
+			<section data-background-color="#3498db">
+				<section data-transition="slide">
+					<h1>Sobre o cliente</h1>
+					<p class="fragment">Comerciante autônoma há <span class="anos-trabalho">28</span> anos</p>
+					<p class="fragment">Microempreendedora Individual (MEI)</p>
+				</section>
+				<!--Slide #3 - Use Case de Negócio -->
+				<section data-background="https://github.com/raulfdm/tcc/blob/master/Files/UML/img/use-case-negocio.png?raw=true" data-background-size="800px"
+								data-background-color="#fff">
+				</section>
+			</section>
+
+			<!--Slide #5 - Ishkawa-->
+			<section data-background-color="#c0392b">
+				<section>
+					<h2>Nem tudo são flores...</h2>
+				</section>
+				<section data-background="img/diagrama-ishikawa.png" data-background-size="1000px">
+					<h3 class="titulo-ishikawa">Diagrama de Ishikawa</h3>
+				</section>
+
+			</section>
+
+			<!--Slide #4 - Objetivos e Objetivos Especificos-->
+			<section data-background-color="#e67e22">
+				<section>
+					<h1>Objetivo Geral</h1>
+					<h3 class="fragment">Automatização</h3>
+				</section>
+				<section>
+					<h1>Objetivos Especificos</h1>
+					<ul class="list-objetivos-especificos">
+						<li class="fragment highlight-current-blue">Manter um Cadastro digital de todos clientes</li>
+						<li class="fragment highlight-current-blue">Controlar a compra e venda de mercadoria</li>
+						<li class="fragment highlight-current-blue">Controlar o fluxo de caixa (Pagar/Receber)</li>
+						<li class="fragment highlight-current-blue">Fornecimento de relatórios</li>
+						<li class="fragment highlight-current-blue grow">Transparência para os clientes</li>
+					</ul>
+				</section>
+			</section>
+
+
+			<!--Slide #6 - Fronteira Sistêmica-->
+			<section>Slide 6</section>
+			<!--Slide #7 - Use Case de Sistema-->
+			<section>Slide 7</section>
+			<!--Slide #8 - Proposta/Lista de Restrições-->
+			<section>Slide 8</section>
+
+		</div>
+	</div>
+
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
+
+	<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+</body>
+
+</html>

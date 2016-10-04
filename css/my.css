@@ -1,0 +1,16 @@
+.left{
+    text-align: left;
+}
+.anos-trabalho{
+    color: #ff2c2d;
+}
+.list-objetivos-especificos>li{
+    list-style: none;
+}
+.list-objetivos-especificos>li:before{
+    content: "✓";
+}
+.titulo-ishikawa{
+    margin-top: -43vh !important;
+}
+/*#1b91ff -> #3498db*/
