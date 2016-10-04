@@ -4,13 +4,27 @@
 .anos-trabalho{
     color: #ff2c2d;
 }
-.list-objetivos-especificos>li{
+li{
     list-style: none;
 }
-.list-objetivos-especificos>li:before{
+li:before{
     content: "✓";
+}
+.titulo-h2x{
+    font-size: 3em !important;
 }
 .titulo-ishikawa{
     margin-top: -43vh !important;
+}
+.titulo-firebase{
+    color: #e67e22;
+    font-weight: bold;
+}
+.titulo-react{
+    color: #61dafb;
+    font-weight: bold;
+}
+.titulo-case-sistema{
+    color: #2c3e50 !important;
 }
 /*#1b91ff -> #3498db*/
