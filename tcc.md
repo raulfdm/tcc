@@ -25,9 +25,9 @@
 # <a name="intro">Introdução</a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A empresa alvo deste projeto possui apenas duas pessoas, uma comerciante autônoma, vendedora de roupas e acessórios que atua no ramo há 25 anos e sua filha que está iniciando no ramo de vendas. Por se tratar de uma micro empresa, ambas cuidam de todas as áreas, desde as vendas, contas a pagar, contas a receber e até mesmo as compras de mercadorias. Seus clientes são pessoas físicas que as solicitam uma visita residencial para a apresentação das mercadorias trazidas de outras cidades, como por exemplo São José do Rio Preto/SP, Goiânia/GO, entre outras.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nas viagens de compra de mercadoria, quase todas as negociações são feitas através de cheques pré-datados e todo o controle de datas de pagamentos e valores são feito através de anotações em cadernos que são trocados anualmente.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nas viagens de compra de mercadoria, quase todas as negociações são feitas através de cheques pré-datados e todo o controle de datas de pagamentos e valores são feitos através de anotações em cadernos que são trocados anualmente.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No processo de venda, é feito uma apresentação de mercadorias o cliente. Ao concretizar a venda, a vendedora cria uma ficha cadastral, onde é anotado informações básicas para contato e identificação do cliente e informações gerais sobre as vendas realizadas, como a quantidade total da compra e as parcelas com suas respectivas datas de pagamento. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No processo de venda, é feito uma apresentação de mercadorias ao cliente. No ato da venda, a vendedora cria uma ficha cadastral, onde são anotadas informações básicas para contato e identificação do cliente e informações gerais sobre as vendas realizadas, como a quantidade total da compra e as parcelas com suas respectivas datas de pagamento. 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Diariamente, três informações são consultadas para iniciar o dia de trabalho. A primeira é identificar quais são os pagamentos a serem efetuados no dia. A segunda é levantar a relação de clientes que estão pendentes de pagamento para que seja feito o contato e o recebimento. Por último, é analisar quais clientes que estão próximos de quitar suas dívidas e fazer contato para o agendamento de uma nova visita e venda.
 
@@ -48,14 +48,14 @@ Os objetivos específicos são:
 * Controlar contas a receber;
 * Controlar prospecção das vendas;
 * Implementar no sistema o acesso por perfis de usuário
-* Disparar e-mail list e mensagens para smartphones
+* Disparar *e-mail* list e mensagens para smartphones
 
 [menu↑](#topo)
 
 ##	<a name="escopo">Escopo</a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O trabalho é feito por duas pessoas. O(A) comerciante acompanha as tendências da moda através das mídias sociais, televisão, revistas e encartes enviados pelas lojas para saber quais as novidades e potencial comercial para seu público alvo. Com essas referências em mente, o primeiro passo é a compra das mercadorias.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O trabalho é feito por duas pessoas. O(A) comerciante acompanha as tendências da moda através das mídias sociais, televisão, revistas e encartes enviados pelas lojas para obter as atualizações das novidades e potencial comercial para seu público alvo. Com essas referências em mente, o primeiro passo é a compra das mercadorias.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O(A) vendedor(a) entra em contato com uma agência que realiza viagens para cidades que possuam um centro comercial atacadista e consulta as datas previstas para as viagens e quais as cidades. Cada cidade possui um tipo específico de mercadorias, assim, caso o(a) vendedor(a) não tenha experiência com compras, ele pode consultar o representante da agência, que saberá informar o destino que melhor atenderá suas necessidades e passar informações sobre condições de pagamento dos locais.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O(A) vendedor(a) entra em contato com uma agência que realiza viagens para cidades que possuam um centro comercial atacadista e consulta as datas previstas para as viagens por cidades. Cada cidade possui um tipo específico de mercadorias, assim, caso o(a) vendedor(a) não tenha experiência com compras, ele pode consultar o representante da agência, que informará o destino que melhor atenderá suas necessidades e passar informações sobre condições de pagamento dos locais.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No dia da viagem, o(a) vendedor(a) se dirige ao local onde o ônibus sairá e partem rumo a cidade destino. Chegado ao destino, (o)a vendedor(a) assiste desfiles de modas e consome a divulgação das mercadorias feitas por cada loja, afim de fazer uma breve apresentação de quais mercadorias estão disponíveis para compra.
 Na loja, a vendedora analisa as mercadorias e efetiva a compra das peças que lhe interessaram, no mínimo 6 (seis) ou mais peças, por se tratar de lojas atacadistas. É combinado com o(a) vendedor(a) da loja, o valor total, o desconto e a forma de pagamento, que podem ser à vista, cartão de crédito parcelado ou cheques pré-datados.
@@ -347,10 +347,11 @@ ___
 ## <a name="restricoes">Lista de Restrições</a> 
 |   Restrição   | Descrição     | Motivo
 | :-----------: |:-------------:|:-------------:| 
-| Linguagem de Programação (Front-end) | Javascript, HTML5, CSS3, React | 
+| Linguagem de Programação - <i>Front-end</i> | Javascript, HTML5, CSS3, React | 
+| <i>Back-end</i> | Firebase|
 | Servidor Web      |     Hospedagem LocaWeb  |
 | Banco de Dados  |  NoSQL (Firebase) |
-| Back-end | Firebase|
+
 
 [menu↑](#topo)
 
@@ -385,14 +386,14 @@ Em linhas gerais, a proposta é extingir o uso de anotações manuais em papel, 
 [menu↑](#topo)
 
 ## <a name="fronteira-sistemica">Fronteira Sistêmica</a>
-Na figura abaixo, é exibido a interação dos atores com o sistema.
+Na figura abaixo<>ADICIONAR O NÚMERO DA IMAGEM<>, é exibido a interação dos atores com o sistema.
 
 ![Fronteira Sistêmica](https://github.com/raulfdm/tcc/blob/master/Files/UML/img/fronteira-sistemica.png)
 
 [menu↑](#topo)
 
-## <a name="use-case-sistema">Fronteira Sistêmica</a>
-Na figura abaixo, é exibido o diagrama de caso de uso de sistema.
+## <a name="use-case-sistema">Use Case de Sistêma</a>
+Na figura abaixo<>ADICIONAR O NÚMERO DA IMAGEM<>, é exibido o diagrama de caso de uso de sistema.
 
 ![Use Case de Sistema](https://github.com/raulfdm/tcc/blob/master/Files/UML/img/use-case-sistema.png)
 
