@@ -19,7 +19,7 @@ li:before {
 }
 
 .titulo-ishikawa {
-    margin-top: -43vh !important;
+    margin-top: -37vh !important;
 }
 
 .titulo-firebase {
@@ -32,9 +32,16 @@ li:before {
     font-weight: bold;
 }
 
-.titulo-case-sistema {
+.titulo-case {
     color: #2c3e50 !important;
     text-align: left;
+}
+
+.img-case-negocio {
+    border: none !important;
+    box-shadow: none !important;
+    max-height: 62% !important;
+    max-width: 62% !important;
 }
 
 .logo-unaerp {
