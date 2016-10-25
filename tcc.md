@@ -347,10 +347,10 @@ ___
 ## <a name="restricoes">Lista de Restrições</a> 
 |   Restrição   | Descrição     | Motivo
 | :-----------: |:-------------:|:-------------:| 
-| Linguagem de Programação - <i>Front-end</i> | Javascript, HTML5, CSS3, React | 
-| <i>Back-end</i> | Firebase|
-| Servidor Web      |     Hospedagem LocaWeb  |
-| Banco de Dados  |  NoSQL (Firebase) |
+| Linguagem de Programação - <i>Front-end</i> | Javascript, HTML5, CSS3, React | O react foi escolhido pela alta performance componentização de elementos e . Por ele ser apenas uma biblioteca, é possível usa-lo em várias tecnologias, logo, caso haja mudança na tecnologia futuramente, o código poderá ser reutilizado. Javascript, HTML5 e CSS3 são linguagens web, as tornando fundamentais para a realização do projeto| 
+| <i>Back-end</i> | Firebase| O Firebase foi escolhido pois ele fornece uma abstração da implementação do servidor, ou seja, ele oferece um SGBD não relacional, autenticação, armazenagem de arquivos através de serviços web e na nuvem. Seu uso reduzirá eliminará a necessidade de desenvolver um serviço na parte do servidor.|
+| Servidor Web      |     Hospedagem LocaWeb  | Foi escolhido a Locaweb pela credibilidade da empresa e pelo valor de serviço prestado.|
+| SGBD  |  NoSQL (Firebase) | Este é fornecido pelo próprio firebase.|
 
 
 [menu↑](#topo)
