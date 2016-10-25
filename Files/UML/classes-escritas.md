@@ -1,36 +1,45 @@
-
-
 ## Pessoa
 ```
 Pessoa
 --
-- id: string
-- cep: number
-- endereco: string
-- numeroEndereco: number
-- complemento: string
-- telefone: string
-- celular: string
+- id: String
+- cep: Number
+- endereco: String
+- numeroEndereco: Number
+- complemento: String
+- telefone: String
+- celular: String
 --
 ```
 
-## Fornecedor
 ```
 Fornecedor
 --
-- cnpj: string
-- razaoSocial: string
+- cnpj: String
+- razaoSocial: String
 --
 ```
 
-## Cliente
 ```
 Cliente
 --
-- nomeCompleto: string
-- cpf: string
-- dataNascimento: date
+- nomeCompleto: String
+- cpf: String
+- dataNascimento: Date
 --
+```
+
+```
+UsuarioSistema
+--
+- email: String
+- senha: String
+- user: Pessoa
+- configuracoes: Object
+--
++ login(): void
++ logout(): void
++ changePassword(): void
 ```
 
 ## Pedido
@@ -38,23 +47,48 @@ Cliente
 ```
 Pedido
 --
-- idvendedor: string
-- idpedido: string
-- produtos: Array
+- idvendedor: String
+- idpedido: String
+- produtos: Array(Produto)
 - data: Date
+- total: Number
 --
-+ totalPedido(): Number
-+ listaProdutos(): Array
+- calculaTotal(): Number
++ totalPedido(): String
 ```
 
 ```
-Pedido de venda
+PedidoVenda
 --
-- idcliente: string
+- idcliente: String
 ```
 	
 ```
-Pedido de Compra	
+PedidoCompra	
 --
-- idfornecedor: string
+- idfornecedor: String
+```
+
+
+
+## Produto
+```
+Produto
+--
+- id: String
+- referencia: String
+- Descricao: String
+- idfornecedor: String
+- pedido: Object {
+    - idpedido: String
+    - quantidade: Number
+    - valorUnitario: Number
+}
+```
+
+## Estoque
+```
+Estoque
+--
+- produtos: Array
 ```
