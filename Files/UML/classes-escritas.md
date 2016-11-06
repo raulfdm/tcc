@@ -9,32 +9,33 @@ Pessoa
 - complemento: String
 - telefone: String
 - celular: String
---
 ```
 
 ```
-Fornecedor
+PessoaJuridica
 --
+- idfornecedor: String
 - cnpj: String
 - razaoSocial: String
---
 ```
 
 ```
-Cliente
+PessoaFisica
 --
+- idusuario: String
 - nomeCompleto: String
 - cpf: String
 - dataNascimento: Date
---
+- usuarioSistema: UsuarioSistema
 ```
 
 ```
 UsuarioSistema
 --
+- idusuario: String
 - email: String
 - senha: String
-- user: Pessoa
+- tipousuario: String
 - configuracoes: Object
 --
 + login(): void
@@ -61,15 +62,44 @@ Pedido
 PedidoVenda
 --
 - idcliente: String
+- listaRecebeimentos: Array(Recebimento)
+--
+- gerarRecebimentos(): void
 ```
 	
 ```
 PedidoCompra	
 --
 - idfornecedor: String
+- listaPagamentos: Array(Pagamento)
+--
+- gerarPagamentos(): void
 ```
 
+## Financeiro
 
+```
+Contas
+--
+- idpedido: String
+- dataPrevista: Date
+- dataEfetivacao: Date
+- quitado: Boolean
+
+```
+
+```
+Recebimento
+--
+- idrecebimento: String
+
+```
+
+```
+Pagamento
+--
+- idpagamento: String
+```
 
 ## Produto
 ```
@@ -91,4 +121,24 @@ Produto
 Estoque
 --
 - produtos: Array
+- produtoEstoque: Object {
+    - quantidade: Number
+    - Produto: Produto
+}
+-- 
++ salvaProdutoEstoque(Produto): void
++ estoquePorProduto(): Array
++ valorEmEstoque(): Number
+
+```
+
+## Carteira Cliente
+```
+CarteiraCliente
+--
+- idcliente: String
+--
++ listaCompras(): Array(Object)
++ listaPagamentos(): Array(Object)
++ saldoDevedor(): Number
 ```
