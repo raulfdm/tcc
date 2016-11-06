@@ -19,6 +19,8 @@
   1. [Use Case de Sistema](#use-case-sistema)
     1. [Descrição dos Processos de Sistema](#descricao-dos-processos-sistema)
 
+1. [Diagrama de Classe](#diagrama-classe)
+
 1. [Referências](#referencias)
 
 
@@ -560,7 +562,15 @@ Na figura abaixo<>ADICIONAR O NÚMERO DA IMAGEM<>, é exibido o diagrama de caso
     <td>Para ter acesso à todas as informações do sistema, tanto o(a) vendedor(a), quanto o(a) cliente, farão uma autenticação no sistema. Essa, será disparada para o servidor da google e retornará autorizando ou não a entrada do usuário.</td>
   </tr>
 </table>
+
 ---
+
+[menu↑](#topo)
+
+## <a name="diagrama-classe">Diagrama de Classe</a>
+Na figura abaixo<>ADICIONAR O NÚMERO DA IMAGEM<>, é exibido o diagrama de classe.
+
+![Diagrama de Classe](https://github.com/raulfdm/tcc/blob/master/Files/UML/img/diagrama-classe.png)
 
 [menu↑](#topo)
 
@@ -572,3 +582,4 @@ Na figura abaixo<>ADICIONAR O NÚMERO DA IMAGEM<>, é exibido o diagrama de caso
 * React: https://facebook.github.io/react/
 
 [menu↑](#topo)
+
