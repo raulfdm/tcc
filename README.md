@@ -22,6 +22,6 @@ Este repositório tem como objetivo controlar versão de todo o processo do meu 
 - [x] PRÉ-BANCA - Apresentação 10 minutos; (04 a 11/10/2016)
 - [x] Diagrama de Classe; (25/10/2016)
 - [X] Diagrama de Sequência; (08/11/2016)
-- [ ] Diagrama MER e DER; (15/11/2016)
-- [ ] Storyboad (telas do sistema); (22/11/2016)
+- [X] Diagrama MER e DER; (15/11/2016)
+- [X] Storyboad (telas do sistema); (22/11/2016)
 - [ ] Entrega: 3 cópias espiraladas. (29/11/2016)
