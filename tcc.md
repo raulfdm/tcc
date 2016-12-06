@@ -31,10 +31,7 @@
 
 1. [CRONOGRAMA PARA O DESENVOLVIMENTO](#cronograma)
 
-1. []()
-1. []()
-
-1. [Referências](#referencias)
+1. [REFERÊNCIAS BIBLIOGRÁFICAS](#referencias)
 
 
 # <a name="contextualizacao">Contextualização da Empresa</a>
@@ -99,16 +96,16 @@ Os objetivos específicos são:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O diagrama de _Use Case_ de negócio, tem como objetivo fornecer uma visão de como é o processo atual de trabalho. Na figura 1, temos a representação visual destes fluxos e suas interações com os atores.
 
-Figura 1. _Use Case_ de Negócio
-![_Use Case_ de negócio](https://github.com/raulfdm/tcc/blob/master/Files/UML/img/use-case-negocio.png)
-Fonte: Autoria própria
+Figura 1. *Use Case* de Negócio
+![_Use Case_ de negócio](https://github.com/raulfdm/tcc/blob/master/Files/img/use-case-negocio.png)
+<br>Fonte: Autoria própria
 
 [menu↑](#topo)
 
 ### <a name="descricao-dos-processos">Descrição dos processos de negócio</a>
 
 <table>
-<caption>Quadro 1 - _Use Case_ de Negócio: Agendar Viagem</caption>
+<caption>Quadro 1 - <i>Use Case<i> de Negócio: Agendar Viagem</caption>
   <tr>
   <td>_Use Case_ de Negócio:</td>
     <td>Agendar Viagem</td>
