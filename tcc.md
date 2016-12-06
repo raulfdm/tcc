@@ -1,4 +1,4 @@
-# <a name="topo">Menu</a>
+# <a name="topo">SUMÁRIO</a>
 1. [CONTEXTUALIZAÇÃO DA EMPRESA](#contextualizacao)
   1. [OBJETIVO GERAL](#obj-geral)
   1. [OBJETIVOS ESPECÍFICOS](#obj-espec)
