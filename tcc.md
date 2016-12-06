@@ -16,7 +16,7 @@
   1. [DESCRIÇÃO GERAL DO SISTEMA](#descricao-geral-sistema)
   1. [PROPOSTA DE DESENVOLVIMENTO DO SISTEMA](#proposta)
   1. [FRONTEIRA SISTÊMICA](#fronteira-sistemica)
-  1. USE CASE DE SISTEMA](#use-case-sistema)
+  1. [_USE CASE_ DE SISTEMA](#use-case-sistema)
     1. [Descrição dos Processos de Sistema](#descricao-dos-processos-sistema)
   1. [DIAGRAMA DE CLASSE](#diagrama-classe)
   1. [DIAGRAMA DE SEQUÊNCIA](#diagrama-sequencia)
@@ -107,7 +107,7 @@ Figura 1. *Use Case* de Negócio
 <table>
 <caption>Quadro 1 - <i>Use Case</i> de Negócio: Agendar Viagem</caption>
   <tr>
-  <td>_Use Case_ de Negócio:</td>
+  <td><i>Use Case</i> de Negócio:</td>
     <td>Agendar Viagem</td>
   </tr>
   <tr>
@@ -121,9 +121,9 @@ Figura 1. *Use Case* de Negócio
 </table>
 ---
 <table>
-<caption>Quadro 2 - _Use Case_ de Negócio: Comprar Mercadorias</caption>
+<caption>Quadro 2 - <i>Use Case</i> de Negócio: Comprar Mercadorias</caption>
   <tr>
-  <td>_Use Case_ de Negócio:</td>
+  <td><i>Use Case</i> de Negócio:</td>
     <td>Comprar Mercadorias</td>
   </tr>
   <tr>
@@ -137,9 +137,9 @@ Figura 1. *Use Case* de Negócio
 </table>
 ___
 <table>
-<caption>Quadro 3 - _Use Case_ de Negócio: Organizar Mercadorias</caption>
+<caption>Quadro 3 - <i>Use Case</i> de Negócio: Organizar Mercadorias</caption>
   <tr>
-  <td>_Use Case_ de Negócio:</td>
+  <td><i>Use Case</i> de Negócio:</td>
     <td>Organizar Mercadorias</td>
   </tr>
   <tr>
@@ -153,9 +153,9 @@ ___
 </table>
 ---
 <table>
-<caption>Quadro 4 - _Use Case_ de Negócio: Anotar Preços nas Mercadorias</caption>
+<caption>Quadro 4 - <i>Use Case</i> de Negócio: Anotar Preços nas Mercadorias</caption>
   <tr>
-  <td>_Use Case_ de Negócio:</td>
+  <td><i>Use Case</i> de Negócio:</td>
     <td>Anotar Preços nas Mercadorias</td>
   </tr>
   <tr>
@@ -169,9 +169,9 @@ ___
 </table>
 ---
 <table>
-<caption>Quadro 5 - _Use Case_ de Negócio: Consultar Contas a Pagar</caption>
+<caption>Quadro 5 - <i>Use Case</i> de Negócio: Consultar Contas a Pagar</caption>
   <tr>
-  <td>_Use Case_ de Negócio:</td>
+  <td><i>Use Case</i> de Negócio:</td>
     <td>Consultar Contas a Pagar</td>
   </tr>
   <tr>
@@ -185,9 +185,9 @@ ___
 </table>
 ---
 <table>
-<caption>Quadro 6 - _Use Case_ de Negócio: Pagar Contas</caption>
+<caption>Quadro 6 - <i>Use Case</i> de Negócio: Pagar Contas</caption>
   <tr>
-  <td>_Use Case_ de Negócio:</td>
+  <td><i>Use Case</i> de Negócio:</td>
     <td>Pagar Contas</td>
   </tr>
   <tr>
@@ -201,9 +201,9 @@ ___
 </table>
 ---
 <table>
-<caption>Quadro 7 - _Use Case_ de Negócio: Consultar Contas a Receber</caption>
+<caption>Quadro 7 - <i>Use Case</i> de Negócio: Consultar Contas a Receber</caption>
   <tr>
-  <td>_Use Case_ de Negócio:</td>
+  <td><i>Use Case</i> de Negócio:</td>
     <td>Consultar Contas a Receber</td>
   </tr>
   <tr>
@@ -217,9 +217,9 @@ ___
 </table>
 ---
 <table>
-<caption>Quadro 8 - _Use Case_ de Negócio: Ligar para o Cliente</caption>
+<caption>Quadro 8 - <i>Use Case</i> de Negócio: Ligar para o Cliente</caption>
   <tr>
-  <td>_Use Case_ de Negócio:</td>
+  <td><i>Use Case</i> de Negócio:</td>
     <td>Ligar para o Cliente</td>
   </tr>
   <tr>
@@ -233,9 +233,9 @@ ___
 </table>
 ---
  <table>
-<caption>Quadro 9 - _Use Case_ de Negócio: Ligar para o Cliente</caption>
+<caption>Quadro 9 - <i>Use Case</i> de Negócio: Ligar para o Cliente</caption>
   <tr>
-  <td>_Use Case_ de Negócio:</td>
+  <td><i>Use Case</i> de Negócio:</td>
     <td>Ligar para o Cliente</td>
   </tr>
   <tr>
@@ -249,9 +249,9 @@ ___
 </table>
 ---
  <table>
-<caption>Quadro 11 - _Use Case_ de Negócio: Visitar Cliente</caption>
+<caption>Quadro 11 - <i>Use Case</i> de Negócio: Visitar Cliente</caption>
   <tr>
-  <td>_Use Case_ de Negócio:</td>
+  <td><i>Use Case</i> de Negócio:</td>
     <td>Visitar Cliente</td>
   </tr>
   <tr>
@@ -265,9 +265,9 @@ ___
 </table>
 ---
 <table>
-<caption>Quadro 12 - _Use Case_ de Negócio: Fazer Recebimento</caption>
+<caption>Quadro 12 - <i>Use Case</i> de Negócio: Fazer Recebimento</caption>
   <tr>
-  <td>_Use Case_ de Negócio:</td>
+  <td><i>Use Case</i> de Negócio:</td>
     <td>Fazer Recebimento</td>
   </tr>
   <tr>
@@ -281,9 +281,9 @@ ___
 </table>
 ---
 <table>
-<caption>Quadro 13 - _Use Case_ de Negócio: Dar baixa do pagatamento na ficha do cliente</caption>
+<caption>Quadro 13 - <i>Use Case</i> de Negócio: Dar baixa do pagatamento na ficha do cliente</caption>
   <tr>
-  <td>_Use Case_ de Negócio:</td>
+  <td><i>Use Case</i> de Negócio:</td>
     <td>Dar baixa do pagatamento na ficha do cliente</td>
   </tr>
   <tr>
@@ -297,9 +297,9 @@ ___
 </table>
 ---
 <table>
-<caption>Quadro 14 - _Use Case_ de Negócio: Mostrar Mercadorias</caption>
+<caption>Quadro 14 - <i>Use Case</i> de Negócio: Mostrar Mercadorias</caption>
   <tr>
-  <td>_Use Case_ de Negócio:</td>
+  <td><i>Use Case</i> de Negócio:</td>
     <td>Mostrar Mercadorias</td>
   </tr>
   <tr>
@@ -313,9 +313,9 @@ ___
 </table>
 ---
 <table>
-<caption>Quadro 15 - _Use Case_ de Negócio: Realizar Venda</caption>
+<caption>Quadro 15 - <i>Use Case</i> de Negócio: Realizar Venda</caption>
   <tr>
-  <td>_Use Case_ de Negócio:</td>
+  <td><i>Use Case</i> de Negócio:</td>
     <td>Realizar Venda</td>
   </tr>
   <tr>
@@ -329,9 +329,9 @@ ___
 </table>
 ---
 <table>
-<caption>Quadro 16 - *Use Case* de Negócio: Anotar Venda na Ficha do Cliente</caption>
+<caption>Quadro 16 - <i>Use Case</i> de Negócio: Anotar Venda na Ficha do Cliente</caption>
   <tr>
-  <td>*Use Case* de Negócio:</td>
+  <td><i>Use Case</i> de Negócio:</td>
     <td>Anotar Venda na Ficha do Cliente</td>
   </tr>
   <tr>
@@ -419,7 +419,7 @@ Quadro 15 - Lista de Restrições
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Na figura abaixo, é exibido a interação dos atores com o sistema, onde, esse será acessado tanto pelo vendedor (a), quanto pelo seu cliente. Todas as consultas de dados e autenticação serão feitas por um sistema paralelo ao sistema, o Firebase.
 
 Figura 3 - Fronteira Sistêmica
-![Fronteira Sistêmica](https://github.com/raulfdm/tcc/blob/master/Files/img/fronteira-sistemica.png)
+<br>![Fronteira Sistêmica](https://github.com/raulfdm/tcc/blob/master/Files/img/fronteira-sistemica.png)
 <br>Fonte: Autoria Própria
 
 [menu↑](#topo)
@@ -715,7 +715,7 @@ Figura 13 - Diagrama de Sequência: Extração de Relatórios
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bancos de dados não-relacionais tem como principal objetivo a alta escalabilidade e o alto desempenho alinhados com um baixo custo de manutenção e armazenamento de dados. Análogo à tabela em bancos de dados relacionais, no mundo não-relacional temos coleções. Essas coleções são compostas por objetos baseados no JavaScript Object Notation (JSON), onde possui uma estruturação simples de chave e valor. Na figura 14, podemos ver um exemplo de um documento em representação JSON, onde temos como chave as informações da esquerda como o nome, a idade e os filmes favoritos e ao lado direito temos o valor de cada chave. Por usar como base objetos JavaScript, podemos armazenar como valor de chave coleções (listas) e objetos, como pode ser visto na chave filmes-favoritos.
 
 Figura 14 - Exemplo de documento objeto JSON gravado em um banco de dados NoSQL
-![Figura 14 - Exemplo de documento objeto JSON gravado em um banco de dados NoSQL](https://)
+<br>![Figura 14 - Exemplo de documento objeto JSON gravado em um banco de dados NoSQL](https://github.com/raulfdm/tcc/blob/master/Files/img/exemplo-json.png)
 <br>Fonte: Autoria Própria
 
 [menu↑](#topo)
@@ -727,7 +727,7 @@ Figura 14 - Exemplo de documento objeto JSON gravado em um banco de dados NoSQL
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Apesar de não ter um relacionamento direto, podemos ter valores fazendo referencias para outros objetos em outras coleções, como pode ser visto na figura 15, onde, cada registro da coleção Usuário possui uma lista de cursos no qual estão matriculados. Essa lista por sua vez, possui apenas o id do curso, que faz referência para os valores da coleção de Cursos.
 
 Figura 15 - Exemplo de relacionamento entre coleções
-![Figura 15 - Exemplo de relacionamento entre coleções](https://)
+<br>![Figura 15 - Exemplo de relacionamento entre coleções](https://github.com/raulfdm/tcc/blob/master/Files/img/relacionamento-colecoes.png)
 <br>Fonte: Autoria Própria
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Apesar de existir essa forma de interligação entre coleções, fica por parte da aplicação realizar a manipulação de informações para eventuais consultas. Uma vez que todo o controle será feito pela aplicação, as informações que serão armazenadas serão exatamente as mesmas das descritas no diagrama de classe.
@@ -748,57 +748,85 @@ Figura 16 - Tela: Login
 ![Figura 16 - Tela: Login](https://github.com/raulfdm/tcc/blob/master/Files/mockup/1.%20Login.png)
 <br>Fonte: Autoria Própria
 
+[menu↑](#topo)
+
 Figura 17 - Tela: Login com o Google
 ![Figura 17 - Tela: Login com o Google](https://github.com/raulfdm/tcc/blob/master/Files/mockup/1.1%20Login%20com%20Google.png)
 <br>Fonte: Autoria Própria
+
+[menu↑](#topo)
 
 Figura 18 - Tela: Dashboard (principal)
 ![Figura 18 - Tela: Dashboard (principal)](https://github.com/raulfdm/tcc/blob/master/Files/mockup/2.%20Home%20-%20Dashboard.png)
 <br>Fonte: Autoria Própria
 
+[menu↑](#topo)
+
 Figura 19 - Tela: Dashboard - Menu de cadastro
 ![Figura 19 - Tela: Dashboard - Menu de cadastro](https://github.com/raulfdm/tcc/blob/master/Files/mockup/2.3%20Home%20-%20Dashboard%20-%20A%C3%A7%C3%B5es%20Op%C3%A7%C3%B5es.png)
 <br>Fonte: Autoria Própria
+
+[menu↑](#topo)
 
 Figura 20 - Tela: Dashboard - Menu de sessão
 ![Figura 20 - Tela: Dashboard - Menu de sessão](https://github.com/raulfdm/tcc/blob/master/Files/mockup/2.4%20Home%20-%20Dashboard%20-%20Perfil%20Op%C3%A7%C3%B5es.png)
 <br>Fonte: Autoria Própria
 
+[menu↑](#topo)
+
 Figura 21 - Tela: Clientes
 ![Figura 21 - Tela: Clientes](https://github.com/raulfdm/tcc/blob/master/Files/mockup/3.%20Home%20-%20Clientes.png)
 <br>Fonte: Autoria Própria
+
+[menu↑](#topo)
 
 Figura 22 - Tela: Carteira de Cliente 1/3
 ![Figura 22 - Tela: Carteira de Cliente 1/3](https://github.com/raulfdm/tcc/blob/master/Files/mockup/3.1%20Home%20-%20Cliente%20-%20Administrar%201_3.png)
 <br>Fonte: Autoria Própria
 
+[menu↑](#topo)
+
 Figura 23 - Tela: Carteira de Cliente 2/3
 ![Figura 23 - Tela: Carteira de Cliente 2/3](https://github.com/raulfdm/tcc/blob/master/Files/mockup/3.2%20Home%20-%20Cliente%20-%20Administrar%202_3.png)
 <br>Fonte: Autoria Própria
+
+[menu↑](#topo)
 
 Figura 24 - Tela: Carteira de Cliente 3/3
 ![Figura 24 - Tela: Carteira de Cliente 3/3](https://github.com/raulfdm/tcc/blob/master/Files/mockup/3.3%20Home%20-%20Cliente%20-%20Administrar%203_3.png)
 <br>Fonte: Autoria Própria
 
+[menu↑](#topo)
+
 Figura 25 - Tela: Cadastrar Cliente
 ![Figura 25 - Tela: Cadastrar Cliente](https://github.com/raulfdm/tcc/blob/master/Files/mockup/3.4%20Home%20-%20Clientes%20-%20Cadastrar.png)
 <br>Fonte: Autoria Própria
+
+[menu↑](#topo)
 
 Figura 26 - Tela: Editar Cliente
 ![Figura 26 - Tela: Editar Cliente](https://github.com/raulfdm/tcc/blob/master/Files/mockup/3.5%20Home%20-%20Clientes%20-%20Editar.png)
 <br>Fonte: Autoria Própria
 
+[menu↑](#topo)
+
 Figura 27 - Tela: Fornecedores
 ![Figura 27 - Tela: Fornecedores](https://github.com/raulfdm/tcc/blob/master/Files/mockup/4.%20Home%20-%20Fornecedores.png)
 <br>Fonte: Autoria Própria
+
+[menu↑](#topo)
 
 Figura 28 - Tela: Pedido de Compra
 ![Figura 28 - Tela: Pedido de Compra](https://github.com/raulfdm/tcc/blob/master/Files/mockup/6.%20Home%20-%20Pedidos%20de%20Compra.png)
 <br>Fonte: Autoria Própria
 
+[menu↑](#topo)
+
 Figura 29 - Tela: Cadastrar Pedido de Compra 1/2
 ![Figura 29 - Tela: Cadastrar Pedido de Compra 1/2](https://github.com/raulfdm/tcc/blob/master/Files/mockup/6.1%20Home%20-%20Pedidos%20de%20Compra%20-%20Cadastrar%201_2.png)
 <br>Fonte: Autoria Própria
+
+[menu↑](#topo)
 
 Figura 30 - Tela: Cadastrar Pedido de Compra 2/2
 ![Figura 30 - Tela: Cadastrar Pedido de Compra 2/2](https://github.com/raulfdm/tcc/blob/master/Files/mockup/6.4%20Home%20-%20Pedidos%20de%20Compra%20-%20Cadastrar%202_2.png)
@@ -840,21 +868,22 @@ Quadro 26 - Calendário de Entregas
 
 ## <a name="referencias">Referências Bibliográficas</a>
 
-DEVELOPER NETWORK, Mozila. JSON: JavaScript Object Notation. Disponível em: <https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/JSON>. Acesso em: 05 set. 2016
+DEVELOPER NETWORK, Mozila. *JSON: JavaScript Object Notation*. Disponível em: <https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/JSON>. Acesso em: 05 set. 2016
 
-DEVELOPERS, Google. Progressive Web Apps: A new way to devliver amazing user experiences on the web. Disponível em: <https://developers.google.com/web/progressive-web-apps/>. Acesso em: 18 out. 2016.
+DEVELOPERS, Google. *Progressive Web Apps: A new way to devliver amazing user experiences on the web*. Disponível em: <https://developers.google.com/web/progressive-web-apps/>. Acesso em: 18 out. 2016.
 
-RODRIGUES, Joel. Modelo Entidade Relacionamento (MER) e Diagrama Entidade-Relacionamento (DER). Disponível em: <http://www.devmedia.com.br/modelo-entidade-relacionamento-mer-e-diagrama-entidade-relacionamento-der/14332>. Acesso em: 26 nov. 2016.
+RODRIGUES, Joel. *Modelo Entidade Relacionamento (MER) e Diagrama Entidade-Relacionamento (DER)*.
+Disponível em: <http://www.devmedia.com.br/modelo-entidade-relacionamento-mer-e-diagrama-entidade-relacionamento-der/14332>. Acesso em: 26 nov. 2016.
 
-W3Schools. CSS Introduction. Disponível em: <http://www.w3schools.com/css/css_intro.asp>. Acesso em: 23 nov. 2016
+W3Schools. *CSS Introduction*. Disponível em: <http://www.w3schools.com/css/css_intro.asp>. Acesso em: 23 nov. 2016
 
-W3Schools. HTML Introduction. Disponível em: <http://www.w3schools.com/html/html_intro.asp>. Acesso em: 23 nov. 2016
+W3Schools. *HTML Introduction*. Disponível em: <http://www.w3schools.com/html/html_intro.asp>. Acesso em: 23 nov. 2016
 
-WIKIPEDIA, Wikimedia Foundation. NoSQL. Disponível em: <https://en.wikipedia.org/wiki/NoSQL>. Acesso em: 30 nov. 2016
+WIKIPEDIA, Wikimedia Foundation. *NoSQL*. Disponível em: <https://en.wikipedia.org/wiki/NoSQL>. Acesso em: 30 nov. 2016
 
-WIKIPEDIA, Wikimedia Foundation. Stakeholder. Disponível em: <https://pt.wikipedia.org/wiki/Stakeholder>. Acesso em: 01 set. 2016
+WIKIPEDIA, Wikimedia Foundation. *Stakeholder*. Disponível em: <https://pt.wikipedia.org/wiki/Stakeholder>. Acesso em: 01 set. 2016
 
-WIKIPEDIA, Wikimedia Foundation. Word Wide Web. Disponível em: <https://pt.wikipedia.org/wiki/World_Wide_Web>. Acesso em: 24 nov. 2016.
+WIKIPEDIA, Wikimedia Foundation. *Word Wide Web*. Disponível em: <https://pt.wikipedia.org/wiki/World_Wide_Web>. Acesso em: 24 nov. 2016.
 
 [menu↑](#topo)
 
