@@ -1,25 +1,25 @@
 # <a name="topo">Menu</a>
-1. [Contextualização da Empresa](#contextualizacao)
-  1. [Objetivo Geral](#obj-geral)
-  1. [Objetivos Específicos](#obj-espec)
+1. [CONTEXTUALIZAÇÃO DA EMPRESA](#contextualizacao)
+  1. [OBJETIVO GERAL](#obj-geral)
+  1. [OBJETIVOS ESPECÍFICOS](#obj-espec)
 
-1. [Análise do Negócio](#analise-de-negocio)
-  1. [Escopo de Negócio](#escopo)
-  1. [Diagrama de _Use Case_ de Negócio](#use-case-negocio)
+1. [ANÁLISE DO NEGÓCIO](#analise-de-negocio)
+  1. [ESCOPO DO NEGÓCIO](#escopo)
+  1. [DIAGRAMA DE _USE CASE_ DE NEGÓCIO](#use-case-negocio)
     1. [Descrição dos Processos de Negócio](#descricao-dos-processos)
-  1. [Descrição dos Stakeholders](#stakeholders)
-  1. [Definição do Problema](#definicao-problema)
-  1. [Diagrama de Causa e Efeito(Espinha de Peixe)](#ishikawa)
-  1. [Lista de Restrições](#restricoes)
+  1. [DESCRIÇÃO DOS STAKEHOLDERS](#stakeholders)
+  1. [DEFINIÇÃO DO PROBLEMA](#definicao-problema)
+  1. [DIAGRAMA DE CAUSA E EFEITO (ESPINHA DE PEIXE)](#ishikawa)
+  1. [LISTA DE RESTRIÇÕES](#restricoes)
 
-1. [Análise de Sistemas](#analise-sistema)
+1. [ANÁLISE DE SISTEMA](#analise-sistema)
   1. [DESCRIÇÃO GERAL DO SISTEMA](#descricao-geral-sistema)
   1. [PROPOSTA DE DESENVOLVIMENTO DO SISTEMA](#proposta)
-  1. [Fronteira Sistêmica](#fronteira-sistemica)
-  1. [Use Case de Sistema](#use-case-sistema)
+  1. [FRONTEIRA SISTÊMICA](#fronteira-sistemica)
+  1. USE CASE DE SISTEMA](#use-case-sistema)
     1. [Descrição dos Processos de Sistema](#descricao-dos-processos-sistema)
-  1. [Diagrama de Classe](#diagrama-classe)
-  1. [Diagrama de Sequência](#diagrama-sequencia)
+  1. [DIAGRAMA DE CLASSE](#diagrama-classe)
+  1. [DIAGRAMA DE SEQUÊNCIA](#diagrama-sequencia)
 
 1. [MODELAGEM DO BANCO DE DADOS](#modelagem-db)
   1. [MODELO ENTIDADE RELACIONAMENTO (MER)](#modelagem-mer)
@@ -34,7 +34,7 @@
 1. [REFERÊNCIAS BIBLIOGRÁFICAS](#referencias)
 
 
-# <a name="contextualizacao">Contextualização da Empresa</a>
+# <a name="contextualizacao">CONTEXTUALIZAÇÃO DA EMPRESA</a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A empresa alvo deste projeto possui apenas duas pessoas, uma comerciante autônoma, vendedora de roupas e acessórios que atua no ramo há 25 anos e sua filha que está iniciando no ramo de vendas. Por se tratar de uma microempresa, ambas cuidam de todas as áreas, desde as vendas, contas a pagar, contas a receber e até mesmo as compras de mercadorias. Seus clientes são pessoas físicas que as solicitam uma visita residencial para a apresentação das mercadorias trazidas de outras cidades, como por exemplo São José do Rio Preto/SP, Goiânia/GO, entre outras.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nas viagens de compra de mercadoria, quase todas as negociações são feitas através de cheques pré-datados e todo o controle de datas de pagamentos e valores são feitos através de anotações em cadernos que são trocados anualmente.
@@ -47,12 +47,12 @@
 
 [menu↑](#topo)
 
-## <a name="obj-geral">Objetivo Geral</a>
+## <a name="obj-geral">OBJETIVO GERAL</a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O objetivo deste projeto é criar um sistema de informação para uma empreendedora autônoma no seguimento de venda de roupas e acessórios.
 
 [menu↑](#topo)
 
-## <a name="obj-espec">Objetivos Específicos</a>
+## <a name="obj-espec">OBJETIVOS ESPECÍFICOS</a>
 Os objetivos específicos são:
 * Controlar a compra de mercadorias;
 * Manter um cadastro de todas clientes;
@@ -64,9 +64,9 @@ Os objetivos específicos são:
 
 [menu↑](#topo)
 
-# <a name="analise-de-negocio">Análise do Negócio</a>
+# <a name="analise-de-negocio">ANÁLISE DO NEGÓCIO</a>
 
-##	<a name="escopo">Escopo de Negócio</a>
+##	<a name="escopo">ESCOPO DO NEGÓCIO</a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O trabalho é feito por duas pessoas. O (A) comerciante acompanha as tendências da moda através das mídias sociais, televisão, revistas e encartes enviados pelas lojas para obter as atualizações das novidades e potencial comercial para seu público alvo. Com essas referências em mente, o primeiro passo é a compra das mercadorias.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O (A) vendedor (a) entra em contato com uma agência que realiza viagens para cidades que possuam um centro comercial atacadista e consulta as datas previstas para as viagens por cidades. Cada cidade possui um tipo específico de mercadorias, assim, caso o (a) vendedor (a) não tenha experiência com compras, ele pode consultar o representante da agência, que informará o destino que melhor atenderá suas necessidades e passar informações sobre condições de pagamento dos locais.
@@ -92,20 +92,20 @@ Os objetivos específicos são:
 [menu↑](#topo)
 
 
-## <a name="use-case-negocio">Diagrama de _Use Case_ de Negócio</a>
+## <a name="use-case-negocio">DIAGRAMA DE _USE CASE_ DE NEGÓCIO</a>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O diagrama de _Use Case_ de negócio, tem como objetivo fornecer uma visão de como é o processo atual de trabalho. Na figura 1, temos a representação visual destes fluxos e suas interações com os atores.
 
 Figura 1. *Use Case* de Negócio
-![_Use Case_ de negócio](https://github.com/raulfdm/tcc/blob/master/Files/img/use-case-negocio.png)
-<br>Fonte: Autoria própria
+![Use Case de negócio](https://github.com/raulfdm/tcc/blob/master/Files/img/use-case-negocio.png)
+<br><br>Fonte: Autoria Própria
 
 [menu↑](#topo)
 
 ### <a name="descricao-dos-processos">Descrição dos processos de negócio</a>
 
 <table>
-<caption>Quadro 1 - <i>Use Case<i> de Negócio: Agendar Viagem</caption>
+<caption>Quadro 1 - <i>Use Case</i> de Negócio: Agendar Viagem</caption>
   <tr>
   <td>_Use Case_ de Negócio:</td>
     <td>Agendar Viagem</td>
@@ -346,18 +346,18 @@ ___
 
 [menu↑](#topo)
 
-## <a name="stakeholders">Descrição dos <i>Stakeholders</i> </a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O termo *Stackholder* se refere a uma pessoa ou grupo de pessoas interessadas  em uma empresa, negócio ou indústria. Assim, o *stakeholder* da empresa é a própria fundadora. 
+## <a name="stakeholders">DESCRIÇÃO DOS <i>STAKEHOLDERS</i> </a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O termo *Stackholder* se refere a uma pessoa ou grupo de pessoas interessadas  em uma empresa, negócio ou indústria. Assim, o *Stakeholder* da empresa é a própria fundadora. 
 
 [menu↑](#topo)
 
-## <a name="definicao-problema"> Definição do Problema</a>
+## <a name="definicao-problema"> DEFINIÇÃO DO PROBLEMA</a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Baseado no escopo de negócio, pode-se afirmar que o problema é a ineficiência no controle de todas as atividades pertinentes ao trabalho do (a) comerciante, atualmente serem feitas em papéis e caderno. Essa atitude apesar de ter sido adotada há muito tempo, possibilita as chances de alguma falha no processo acontecer, como por exemplo perda de dados de clientes ou de pagamentos a serem feitos, e também diminui de forma significativa a capacidade de analisar precisamente o histórico de venda para tomadas de decisão.
 
 
 [menu↑](#topo)
 
-## <a name="ishikawa">Diagrama de Causa e Efeito (Espinha de Peixe)</a>
+## <a name="ishikawa">DIAGRAMA DE CAUSA E EFEITO (ESPINHA DE PEIXE)</a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A figura 2, mostra o diagrama de Ishikawa (Causa e Efeito) do negócio. Nele, temos como ponto central a dificuldade no gerenciamento das vendas e os problemas causadores de tal.
 O ambiente se trata do meio ambiente do dia-a-dia de trabalho da vendedora. Nela, é possível notar que a mesma trabalha a maior parte do tempo no carro, ou seja, se locomovendo para o local de venda escolhido pela cliente.
 
@@ -366,16 +366,17 @@ O ambiente se trata do meio ambiente do dia-a-dia de trabalho da vendedora. Nela
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No problema relacionado a maquinário, é exibido ao difícil acesso à tecnologia por parte da vendedora, na qual não possui um tablet nem um computador de mesa nem notebook para fazer seus controles. Associado a esse fator, também temos a pouca familiaridade da mesma com esse tipo de tecnologia.
 
 Figura 2. Diagrama de Causa e Efeito
-![Diagrama de causa e efeito (Ishikawa)](https://github.com/raulfdm/tcc/blob/master/Files/UML/img/diagrama-ishikawa.png)
-Fonte: Autoria Própria 
+![Diagrama de causa e efeito (Ishikawa)](https://github.com/raulfdm/tcc/blob/master/Files/img/diagrama-ishikawa.png)
+<br>Fonte: Autoria Própria 
 
 [menu↑](#topo)
 
-## <a name="restricoes">Lista de Restrições</a>
+## <a name="restricoes">LISTA DE RESTRIÇÕES</a>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A lista de restrições tem como objetivo fornecer informações sobre os requisitos gerais  para  o  desenvolvimento  do  sistema.  O  quadro  15  tem  como  objetivo  prover essa visão.
 
 Quadro 15 - Lista de Restrições
+
 |   Restrição   | Descrição     | Motivo
 | :-----------: |:-------------:|:-------------:| 
 | Linguagem de Programação - <i>Front-end</i> | Javascript, HTML5, CSS3, React | O React foi escolhido pela alta performance e capacidade de componentização de elementos. Por ele ser apenas uma biblioteca, é possível usá-lo em várias tecnologias, logo, caso haja mudança na tecnologia futuramente, o código poderá ser reutilizado. JavaScript, HTML5 e CSS3 são linguagens web, as tornando fundamentais para a realização do projeto.| 
@@ -385,9 +386,9 @@ Quadro 15 - Lista de Restrições
 
 [menu↑](#topo)
 
-# <a name="analise-sistema">Análise de Sistemas</a>
+# <a name="analise-sistema">ANÁLISE DE SISTEMA</a>
 
-## <a name="descricao-geral-sistema">Descrição Geral do Sistema</a>
+## <a name="descricao-geral-sistema">DESCRIÇÃO GERAL DO SISTEMA</a>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O objetivo do sistema é oferecer ao vendedor e microempresário a possibilidade de ter  um  controle  mais  preciso  de  todo  o  seu  fluxo  de  trabalho  e  também  fornecer informações  que  facilitem  na  tomada  de  decisão.  Em  linhas  gerais,  a  proposta  é extinguir  o  uso  de  anotações  manuais  em  papel,  e  trabalhar com  as  informações inseridas de forma inteligente.
 
@@ -413,23 +414,23 @@ Quadro 15 - Lista de Restrições
 
 [menu↑](#topo)
 
-## <a name="fronteira-sistemica">Fronteira Sistêmica</a>
+## <a name="fronteira-sistemica">FRONTEIRA SISTÊMICA</a>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Na figura abaixo, é exibido a interação dos atores com o sistema, onde, esse será acessado tanto pelo vendedor (a), quanto pelo seu cliente. Todas as consultas de dados e autenticação serão feitas por um sistema paralelo ao sistema, o Firebase.
 
 Figura 3 - Fronteira Sistêmica
-![Fronteira Sistêmica](https://github.com/raulfdm/tcc/blob/master/Files/UML/img/fronteira-sistemica.png)
-Fonte: Autoria Própria
+![Fronteira Sistêmica](https://github.com/raulfdm/tcc/blob/master/Files/img/fronteira-sistemica.png)
+<br>Fonte: Autoria Própria
 
 [menu↑](#topo)
 
-## <a name="use-case-sistema">_Use Case_ de Sistêma</a>
+## <a name="use-case-sistema">_USE CASE_ DE SISTEMA</a>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A figura 4 exibe o Use Case (Caso de Uso) de Sistema, no qual estão exibidas a proposta de interação entre os atores e os fluxos das principais operações.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A figura 4 exibe o _Use Case_ (Caso de Uso) de Sistema, no qual estão exibidas a proposta de interação entre os atores e os fluxos das principais operações.
 
 Figura 4 - Use Case de Sistema
-![Use Case de Sistema](https://github.com/raulfdm/tcc/blob/master/Files/UML/img/use-case-sistema.png)
-Fonte: Autoria própria
+![Use Case de Sistema](https://github.com/raulfdm/tcc/blob/master/Files/img/use-case-sistema.png)
+<br>Fonte: Autoria Própria
 
 [menu↑](#topo)
 
@@ -438,7 +439,7 @@ Fonte: Autoria própria
 <table>
 <caption>Quadro 17 - Use Case de Sistema: Gerar Pedido de Venda</caption>
   <tr>
-  <td>Use Case de Sistema:</td>
+  <td><i>Use Case</i> de Sistema:</td>
     <td>Cadastrar Venda</td>
   </tr>
   <tr>
@@ -452,9 +453,9 @@ Fonte: Autoria própria
 </table>
 ---
 <table>
-<caption>Quadro 18 - Use Case de Sistema: Gerar Pedido de Compra</caption>
+<caption>Quadro 18 - <i>Use Case</i> de Sistema: Gerar Pedido de Compra</caption>
   <tr>
-  <td>Use Case de Sistema:</td>
+  <td><i>Use Case</i> de Sistema:</td>
     <td>Cadastrar Compra</td>
   </tr>
   <tr>
@@ -468,9 +469,9 @@ Fonte: Autoria própria
 </table>
 ---
 <table>
-<caption>Quadro 19 - Use Case de Sistema: Cadastrar Fornecedor</caption>
+<caption>Quadro 19 - <i>Use Case</i> de Sistema: Cadastrar Fornecedor</caption>
   <tr>
-  <td>Use Case de Sistema:</td>
+  <td><i>Use Case</i> de Sistema:</td>
     <td>Cadastrar Forcedor</td>
   </tr>
   <tr>
@@ -484,9 +485,9 @@ Fonte: Autoria própria
 </table>
 ---
 <table>
-<caption>Quadro 20 - Use Case de Sistema: Cadastrar Cliente</caption>
+<caption>Quadro 20 - <i>Use Case</i> de Sistema: Cadastrar Cliente</caption>
   <tr>
-  <td>Use Case de Sistema:</td>
+  <td><i>Use Case</i> de Sistema:</td>
     <td>Cadastrar Cliente</td>
   </tr>
   <tr>
@@ -500,9 +501,9 @@ Fonte: Autoria própria
 </table>
 ---
 <table>
-<caption>Quadro 21 - Use Case de Sistema: Cadastrar Produto</caption>
+<caption>Quadro 21 - <i>Use Case</i> de Sistema: Cadastrar Produto</caption>
   <tr>
-  <td>Use Case de Sistema:</td>
+  <td><i>Use Case</i> de Sistema:</td>
     <td>Cadastrar Produto</td>
   </tr>
   <tr>
@@ -516,9 +517,9 @@ Fonte: Autoria própria
 </table>
 ---
 <table>
-<caption>Quadro 22 - Use Case de Sistema: Consultar Pedidos de Compra</caption>
+<caption>Quadro 22 - <i>Use Case</i> de Sistema: Consultar Pedidos de Compra</caption>
   <tr>
-  <td>Use Case de Sistema:</td>
+  <td><i>Use Case</i> de Sistema:</td>
     <td>Consultar Pedidos de Compra</td>
   </tr>
   <tr>
@@ -532,9 +533,9 @@ Fonte: Autoria própria
 </table>
 ---
 <table>
-<caption>Quadro 23 - Use Case de Sistema: Consultar Pedidos de Venda</caption>
+<caption>Quadro 23 - <i>Use Case</i> de Sistema: Consultar Pedidos de Venda</caption>
   <tr>
-  <td>Use Case de Sistema:</td>
+  <td><i>Use Case</i> de Sistema:</td>
     <td>Consultar Pedidos de Venda</td>
   </tr>
   <tr>
@@ -548,9 +549,9 @@ Fonte: Autoria própria
 </table>
 ---
 <table>
-<caption>Quadro 24 - Use Case de Sistema: Consultar Relatórios</caption>
+<caption>Quadro 24 - <i>Use Case</i> de Sistema: Consultar Relatórios</caption>
   <tr>
-  <td>Use Case de Sistema:</td>
+  <td><i>Use Case</i> de Sistema:</td>
     <td>Consultar Relatórios</td>
   </tr>
   <tr>
@@ -564,9 +565,9 @@ Fonte: Autoria própria
 </table>
 ---
 <table>
-<caption>Quadro 25 - Use Case de Sistema: Consultar Carteira Digital</caption>
+<caption>Quadro 25 - <i>Use Case</i> de Sistema: Consultar Carteira Digital</caption>
   <tr>
-  <td>Use Case de Sistema:</td>
+  <td><i>Use Case</i> de Sistema:</td>
     <td>Consultar Carteira Digital</td>
   </tr>
   <tr>
@@ -580,9 +581,9 @@ Fonte: Autoria própria
 </table>
 ---
 <table>
-<caption>Quadro 26 - Use Case de Sistema: Autenticar no Sistema</caption>
+<caption>Quadro 26 - <i>Use Case</i> de Sistema: Autenticar no Sistema</caption>
   <tr>
-  <td>Use Case de Sistema:</td>
+  <td><i>Use Case</i> de Sistema:</td>
     <td>Autenticar no Sistema</td>
   </tr>
   <tr>
@@ -599,17 +600,17 @@ Fonte: Autoria própria
 
 [menu↑](#topo)
 
-## <a name="diagrama-classe">Diagrama de Classe</a>
+## <a name="diagrama-classe">DIAGRAMA DE CLASSE</a>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O diagrama de classe tem como objetivo fornecer uma visão macro das principais classes do sistema e como elas se relacionam. A figura 5, mostra a estrutura básica das classes do sistema, desenhados especialmente para a linguagem de programação que será utilizada no desenvolvimento do sistema, o JavaScript.
 
 Figura 5 - Diagrama de Classe
-![Diagrama de Classe](https://github.com/raulfdm/tcc/blob/master/Files/UML/img/diagrama-classe.png)
-Fonte: Autoria própria
+![Diagrama de Classe](https://github.com/raulfdm/tcc/blob/master/Files/img/diagrama-classe.png)
+<br>Fonte: Autoria Própria
 
 [menu↑](#topo)
 
-## <a name="diagrama-sequencia">Diagrama de Sequência</a>
+## <a name="diagrama-sequencia">DIAGRAMA DE SEQUÊNCIA</a>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O diagrama de sequência tem como objetivo, exemplificar o trajeto de ações das principais interações do usuário com o sistema.
 
@@ -620,8 +621,8 @@ Fonte: Autoria própria
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Caso ele escolha a tela Pedido de Venda, será exibido uma relação dos pedidos dos últimos 15 dias em ordem decrescente de data de todos os clientes e a opção de filtrar pedidos de um cliente em específico. Caso ele opte por realizar o filtro, o sistema fará uma consulta no Firebase e o mesmo retornará uma lista de todos os pedidos do cliente para os últimos 15 dias.
 
 Figura 6 - Diagrama de Sequência: Consultar Pedidos
-![Figura 6 - Diagrama de Sequência: Consultar Pedidos](https://)
-Fonte: Autoria própria
+![Figura 6 - Diagrama de Sequência: Consultar Pedidos](https://github.com/raulfdm/tcc/blob/master/Files/img/diagrama-sequencia/consulta-pedidos.png)
+<br>Fonte: Autoria Própria
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Na figura 7, está representado o fluxo da carteira digital, onde, poderá ser acessada tanto pelo cliente dono da carteira, quanto pelo (a) vendedor (a).
 
@@ -631,15 +632,15 @@ Fonte: Autoria própria
 
 Figura 7 - Diagrama de Sequência: Consultar Carteira
 ![Figura 7 - Diagrama de Sequência: Consultar Carteira](https://)
-Fonte: Autoria própria
+<br>Fonte: Autoria Própria
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Na figura 8, é exibido o filtro do fluxo de efetivação de uma conta pendente de pagamento no sistema. O usuário (vendedor (a)) acessará a tela de contas à pagar, onde o sistema fará uma consulta no Firebase e retornará a lista das contas pendentes de pagamento do último mês em ordem crescente de vencimento. 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O usuário poderá filtrar por uma conta específica, e somente essa será exibida no grid. Ao selecionar o menu de administração, o usuário confirmará o valor e o dia que a conta foi paga. Nesse momento, será enviado as informações para o Firebase, que desenvolverá uma mensagem de erro ou sucesso e esse pagamento passa a ter a classificação de PAGO no sistema.
 
 Figura 8 - Diagrama de Sequência: Efetivar Contas à Pagar
-![Figura 8 - Diagrama de Sequência: Efetivar Contas à Pagar](https://)
-Fonte: Autoria própria
+![Figura 8 - Diagrama de Sequência: Efetivar Contas à Pagar](https://github.com/raulfdm/tcc/blob/master/Files/img/diagrama-sequencia/consultar-carteira.png)
+<br>Fonte: Autoria Própria
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Na figura 9, é exibido o filtro do fluxo de efetivação de uma conta pendente de recebimento no sistema. 
 
@@ -648,8 +649,8 @@ Fonte: Autoria própria
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ao selecionar o menu de administração da conta, o usuário confirmará o valor e o dia que a conta foi recebida. Nesse momento, será enviado as informações para o Firebase, que devolverá uma mensagem de erro ou sucesso e, caso sucesso, esse recebimento passa a ter a classificação de PAGO no sistema.
 
 Figura 9 - Diagrama de Sequência: Efetivar Recebimento
-![Figura 9 - Diagrama de Sequência: Efetivar Recebimento](https://)
-Fonte: Autoria própria
+![Figura 9 - Diagrama de Sequência: Efetivar Recebimento](https://github.com/raulfdm/tcc/blob/master/Files/img/diagrama-sequencia/efetivar-recebimento.png)
+<br>Fonte: Autoria Própria
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Na figura 10, é possível observar o fluxo de Login no sistema, onde, estará disponível tanto para o Cliente, quanto para o vendedor.
 
@@ -657,8 +658,8 @@ Fonte: Autoria própria
 Caso dê sucesso, o usuário será redirecionado para a tela de home (Dashboard) no sistema. Caso dê erro, o usuário receberá uma mensagem informando que as credenciais incorretas e o mesmo tentará fazer _Login_ novamente.
 
 Figura 10 - Diagrama de Sequência: Login no Sistema
-![Figura 10 - Diagrama de Sequência: Login no Sistema](https://)
-Fonte: Autoria própria
+![Figura 10 - Diagrama de Sequência: Login no Sistema](https://github.com/raulfdm/tcc/blob/master/Files/img/diagrama-sequencia/login.png)
+<br>Fonte: Autoria Própria
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Na figura 11, é apresentado o fluxo de Pedido de Cadastro de Pedido de Compra.
 
@@ -668,9 +669,9 @@ Fonte: Autoria própria
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Após o preenchimento de todas as opções, o usuário clicará em salvar e o sistema fará a captura de todas as informações digitadas e enviará para o Firebase. Caso o processo ocorra com sucesso, o usuário receberá uma mensagem de feedback e será redirecionado para a tela geral de Pedidos de Compra.
 
-Figura 11 - Diagrama de Sequência: Cadastro de Pedido de Compra
-![Figura 11 - Diagrama de Sequência: Cadastro de Pedido de Compra](https://)
-Fonte: Autoria própria
+Figura 11 - Diagrama de Sequência: Gerar Pedido de Compra
+![Figura 11 - Diagrama de Sequência: Gerar Pedido de Compra](https://github.com/raulfdm/tcc/blob/master/Files/img/diagrama-sequencia/gerar-pedido-compra.png)
+<br>Fonte: Autoria Própria
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Na figura 12, é exibido o fluxo de Gerar de Pedido de Venda, que será acessada apenas pelo (a) vendedor (a).
 
@@ -683,8 +684,8 @@ Fonte: Autoria própria
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Caso a operação seja concluída com sucesso, o usuário receberá uma mensagem de sucesso e será redirecionada para a página principal de pedidos de venda.
 
 Figura 12 - Diagrama de Sequência: Gerar de Pedido de Venda
-![Figura 12 - Diagrama de Sequência: Gerar de Pedido de Venda](https://)
-Fonte: Autoria própria
+![Figura 12 - Diagrama de Sequência: Gerar de Pedido de Venda](https://github.com/raulfdm/tcc/blob/master/Files/img/diagrama-sequencia/gerar-pedido-venda.png)
+<br>Fonte: Autoria Própria
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Na figura 13, é exibido o fluxo de extração de relatórios, onde somente o vendedor (a) terá acesso. O usuário acessará a tela e escolherá qual o relatório que deseja ter acesso. 
 
@@ -693,8 +694,8 @@ Fonte: Autoria própria
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Caso opte pelo relatório de fluxo de caixa, o sistema fará consultas no Firebase, buscando os recebimentos, pagamentos e quando os dados retornarem, o sistema exibirá graficamente a relação de compra e venda dos últimos 30 dias.
 
 Figura 13 - Diagrama de Sequência: Extração de Relatórios
-![Figura 13 - Diagrama de Sequência: Extração de Relatórios](https://)
-Fonte: Autoria própria
+![Figura 13 - Diagrama de Sequência: Extração de Relatórios](https://github.com/raulfdm/tcc/blob/master/Files/img/diagrama-sequencia/relatorios.png)
+<br>Fonte: Autoria Própria
 
 [menu↑](#topo)
 
@@ -715,7 +716,7 @@ Fonte: Autoria própria
 
 Figura 14 - Exemplo de documento objeto JSON gravado em um banco de dados NoSQL
 ![Figura 14 - Exemplo de documento objeto JSON gravado em um banco de dados NoSQL](https://)
-Fonte: Autoria própria
+<br>Fonte: Autoria Própria
 
 [menu↑](#topo)
 
@@ -727,7 +728,7 @@ Fonte: Autoria própria
 
 Figura 15 - Exemplo de relacionamento entre coleções
 ![Figura 15 - Exemplo de relacionamento entre coleções](https://)
-Fonte: Autoria própria
+<br>Fonte: Autoria Própria
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Apesar de existir essa forma de interligação entre coleções, fica por parte da aplicação realizar a manipulação de informações para eventuais consultas. Uma vez que todo o controle será feito pela aplicação, as informações que serão armazenadas serão exatamente as mesmas das descritas no diagrama de classe.
 
@@ -744,64 +745,64 @@ Fonte: Autoria própria
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As figuras abaixo têm o propósito de fornecer uma visão gráfica de como será a aparência visual do sistema em sua concepção.
 
 Figura 16 - Tela: Login
-![Figura 16 - Tela: Login](https://)
-Fonte: Autoria própria
+![Figura 16 - Tela: Login](https://github.com/raulfdm/tcc/blob/master/Files/mockup/1.%20Login.png)
+<br>Fonte: Autoria Própria
 
 Figura 17 - Tela: Login com o Google
-![Figura 17 - Tela: Login com o Google](https://)
-Fonte: Autoria própria
+![Figura 17 - Tela: Login com o Google](https://github.com/raulfdm/tcc/blob/master/Files/mockup/1.1%20Login%20com%20Google.png)
+<br>Fonte: Autoria Própria
 
 Figura 18 - Tela: Dashboard (principal)
-![Figura 18 - Tela: Dashboard (principal)](https://)
-Fonte: Autoria própria
+![Figura 18 - Tela: Dashboard (principal)](https://github.com/raulfdm/tcc/blob/master/Files/mockup/2.%20Home%20-%20Dashboard.png)
+<br>Fonte: Autoria Própria
 
 Figura 19 - Tela: Dashboard - Menu de cadastro
-![Figura 19 - Tela: Dashboard - Menu de cadastro](https://)
-Fonte: Autoria própria
+![Figura 19 - Tela: Dashboard - Menu de cadastro](https://github.com/raulfdm/tcc/blob/master/Files/mockup/2.3%20Home%20-%20Dashboard%20-%20A%C3%A7%C3%B5es%20Op%C3%A7%C3%B5es.png)
+<br>Fonte: Autoria Própria
 
 Figura 20 - Tela: Dashboard - Menu de sessão
-![Figura 20 - Tela: Dashboard - Menu de sessão](https://)
-Fonte: Autoria própria
+![Figura 20 - Tela: Dashboard - Menu de sessão](https://github.com/raulfdm/tcc/blob/master/Files/mockup/2.4%20Home%20-%20Dashboard%20-%20Perfil%20Op%C3%A7%C3%B5es.png)
+<br>Fonte: Autoria Própria
 
 Figura 21 - Tela: Clientes
-![Figura 21 - Tela: Clientes](https://)
-Fonte: Autoria própria
+![Figura 21 - Tela: Clientes](https://github.com/raulfdm/tcc/blob/master/Files/mockup/3.%20Home%20-%20Clientes.png)
+<br>Fonte: Autoria Própria
 
 Figura 22 - Tela: Carteira de Cliente 1/3
-![Figura 22 - Tela: Carteira de Cliente 1/3](https://)
-Fonte: Autoria própria
+![Figura 22 - Tela: Carteira de Cliente 1/3](https://github.com/raulfdm/tcc/blob/master/Files/mockup/3.1%20Home%20-%20Cliente%20-%20Administrar%201_3.png)
+<br>Fonte: Autoria Própria
 
 Figura 23 - Tela: Carteira de Cliente 2/3
-![Figura 23 - Tela: Carteira de Cliente 2/3](https://)
-Fonte: Autoria própria
+![Figura 23 - Tela: Carteira de Cliente 2/3](https://github.com/raulfdm/tcc/blob/master/Files/mockup/3.2%20Home%20-%20Cliente%20-%20Administrar%202_3.png)
+<br>Fonte: Autoria Própria
 
 Figura 24 - Tela: Carteira de Cliente 3/3
-![Figura 24 - Tela: Carteira de Cliente 3/3](https://)
-Fonte: Autoria própria
+![Figura 24 - Tela: Carteira de Cliente 3/3](https://github.com/raulfdm/tcc/blob/master/Files/mockup/3.3%20Home%20-%20Cliente%20-%20Administrar%203_3.png)
+<br>Fonte: Autoria Própria
 
 Figura 25 - Tela: Cadastrar Cliente
-![Figura 25 - Tela: Cadastrar Cliente](https://)
-Fonte: Autoria própria
+![Figura 25 - Tela: Cadastrar Cliente](https://github.com/raulfdm/tcc/blob/master/Files/mockup/3.4%20Home%20-%20Clientes%20-%20Cadastrar.png)
+<br>Fonte: Autoria Própria
 
 Figura 26 - Tela: Editar Cliente
-![Figura 26 - Tela: Editar Cliente](https://)
-Fonte: Autoria própria
+![Figura 26 - Tela: Editar Cliente](https://github.com/raulfdm/tcc/blob/master/Files/mockup/3.5%20Home%20-%20Clientes%20-%20Editar.png)
+<br>Fonte: Autoria Própria
 
 Figura 27 - Tela: Fornecedores
-![Figura 27 - Tela: Fornecedores](https://)
-Fonte: Autoria própria
+![Figura 27 - Tela: Fornecedores](https://github.com/raulfdm/tcc/blob/master/Files/mockup/4.%20Home%20-%20Fornecedores.png)
+<br>Fonte: Autoria Própria
 
 Figura 28 - Tela: Pedido de Compra
-![Figura 28 - Tela: Pedido de Compra](https://)
-Fonte: Autoria própria
+![Figura 28 - Tela: Pedido de Compra](https://github.com/raulfdm/tcc/blob/master/Files/mockup/6.%20Home%20-%20Pedidos%20de%20Compra.png)
+<br>Fonte: Autoria Própria
 
 Figura 29 - Tela: Cadastrar Pedido de Compra 1/2
-![Figura 29 - Tela: Cadastrar Pedido de Compra 1/2](https://)
-Fonte: Autoria própria
+![Figura 29 - Tela: Cadastrar Pedido de Compra 1/2](https://github.com/raulfdm/tcc/blob/master/Files/mockup/6.1%20Home%20-%20Pedidos%20de%20Compra%20-%20Cadastrar%201_2.png)
+<br>Fonte: Autoria Própria
 
 Figura 30 - Tela: Cadastrar Pedido de Compra 2/2
-![Figura 30 - Tela: Cadastrar Pedido de Compra 2/2](https://)
-Fonte: Autoria própria
+![Figura 30 - Tela: Cadastrar Pedido de Compra 2/2](https://github.com/raulfdm/tcc/blob/master/Files/mockup/6.4%20Home%20-%20Pedidos%20de%20Compra%20-%20Cadastrar%202_2.png)
+<br>Fonte: Autoria Própria
 
 [menu↑](#topo)
 
@@ -810,6 +811,7 @@ Fonte: Autoria própria
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O quadro 26 tem mostra o cronograma proposto para o desenvolvimento de projeto, focando em entregas contínuas por módulos.
 
 Quadro 26 - Calendário de Entregas
+
 |   Data   | Entrega     |
 | :------: |:-----------:| 
 |16/08/2016|Proposta do Projeto|
@@ -833,6 +835,8 @@ Quadro 26 - Calendário de Entregas
 |22/11/2016|Storyboard|
 |29/11/2016|Entrega Impressos|
 |12/11/2016|Banca|
+
+[menu↑](#topo)
 
 ## <a name="referencias">Referências Bibliográficas</a>
 
