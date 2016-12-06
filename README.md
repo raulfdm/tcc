@@ -5,6 +5,8 @@ Este repositório tem como objetivo controlar versão de todo o processo do meu 
 
 ## Informações
 [Calendário de entregas](https://raulfdm.github.io/tcc-calendar/)
+[Texto do Trabalho](https://github.com/raulfdm/tcc/blob/master/tcc.md)
+[Apresentação](https://raulfdm.github.io/tcc/#/)
 
 #### Entregas
 - [x] Introdução; (02/09/2016)
