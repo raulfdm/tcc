@@ -24,4 +24,5 @@ Este repositório tem como objetivo controlar versão de todo o processo do meu 
 - [X] Diagrama de Sequência; (08/11/2016)
 - [X] Diagrama MER e DER; (15/11/2016)
 - [X] Storyboad (telas do sistema); (22/11/2016)
-- [ ] Entrega: 3 cópias espiraladas. (29/11/2016)
+- [X] Entrega: 3 cópias espiraladas. (29/11/2016)
+- [ ] BANCA (12/12/2016)
