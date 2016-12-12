@@ -50,5 +50,11 @@ li:before {
     display: block;
 }
 
-
+.img-ishikawa{
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    max-width: 100vw !important;
+    margin-left: -110px !important;
+}
 /*#1b91ff -> #3498db*/

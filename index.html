@@ -4,16 +4,12 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
     <title>Apresentação TCC</title>
-
     <link rel="stylesheet" href="css/reveal.css">
     <link rel="stylesheet" href="css/theme/night.css">
     <link rel="stylesheet" href="css/my.css">
-
     <!-- Theme used for syntax highlighting of code -->
     <link rel="stylesheet" href="lib/css/zenburn.css">
-
     <!-- Printing and PDF exports -->
     <script>
         var link = document.createElement('link');
@@ -33,7 +29,6 @@
                 <span>Raul Felipe de Melo</span>
                 <img class="logo-unaerp" data-src="http://unaerp.br/templates/unaerp_home/images/logo-topo.png">
             </section>
-
             <!--Slide #2 - Cenário/Cliente-->
             <section data-background-color="#3498db">
                 <section data-transition="slide">
@@ -48,18 +43,16 @@
                     <img class="img-case-negocio" data-src="img/use-case-negocio.png">
                 </section>
             </section>
-
             <!--Slide #4 - Ishkawa-->
             <section data-background-color="#c0392b">
                 <section>
                     <h2>...Nem tudo são flores...</h2>
                 </section>
-                <section data-background="img/diagrama-ishikawa.png" data-background-size="1000px">
-                    <h3 class="titulo-ishikawa">Diagrama de Ishikawa</h3>
+                <section>
+                    <h2 class="titulo-case" style="color: white !important">Diagrama de Ishikawa</h2>
+                    <img width="980" class="img-ishikawa" height="500" data-src="img/diagrama-ishikawa.png">
                 </section>
-
             </section>
-
             <!--Slide #5 - Objetivos e Objetivos Especificos-->
             <section data-background-color="#e67e22">
                 <section>
@@ -77,30 +70,28 @@
                     </ul>
                 </section>
             </section>
-
             <!--Slide #6 - Fronteira Sistêmica-->
             <section>
                 <h2 class="titulo-h2x">Fronteira Sistêmica</h2>
                 <section data-background-color="#1abc9c" data-background="img/fronteira-sistemica.png" data-background-size="600px"></section>
             </section>
-
             <!--Slide #8 - Proposta/Lista de Restrições-->
             <section data-background-color="#34495e">
-
                 <section>
                     <h2 class="titulo-h2x">Proposta e Restrições</h2>
                     <p>Sistema Web - Progressive Web Apps (PWA)</p>
                     <img class="fragment" width="366" height="442" data-src="img/pwa.gif">
                 </section>
-
                 <section>
                     <h2 class="titulo-h2x">Proposta e Restrições</h2>
                     <h3>Front-End</h3>
                     <p class="titulo-react">React - Powered by Facebook</p>
                     <ul>
                         <li class="fragment">Componentização</li>
-                        <li class="fragment">Baixo custo de Manipulação</li>
-                        <li class="fragment">Versatilidade</li>
+                        <li class="fragment">Performático (Shadow DOM)</li>
+                        <li class="fragment">Versátil e flexível (biblioteca)</li>
+                        <li class="fragment">React Native*</li>
+                    </ul>
                     </ul>
                     <p class="fragment">Hospedagem Locaweb</p>
                 </section>
@@ -113,36 +104,49 @@
                         <ul>
                             <li class="fragment">Baixo Custo de armazenamento</li>
                             <li class="fragment">Objetos JSON</li>
-                            <li class="fragment">Fácil alteração</li>
+                            <li class="fragment">Alta escalabilidade e flexibilidade</li>
                         </ul>
                         <li class="fragment">Autenticação</li>
-                        <li class="fragment">API Rest (HTTP)</li>
+                        <li class="fragment">API Rest (HTTP) ou SDK</li>
                         <ul>
-
                         </ul>
-
                     </ul>
                 </section>
             </section>
-
             <!--Slide #7 - Use Case de Sistema-->
-            <section>
-                <h3 class="titulo-case">Use case de Sistema</h3>
-                <section data-background-color="#fff" data-background="img/use-case-sistema.png" data-background-size="900px">
+            <section data-background-color="#fff">
+                <section data-background-size="900px">
+                    <h3 class="titulo-case">Use case de Sistema</h3>
+                    <img width="797" height="580" data-src="img/use-case-sistema.png">
+                </section>
+                <section>
+                    <h3 class="titulo-case">Diagrama de Sequência</h3>
+                    <img width="797" height="580" data-src="img/sequencia-login.png">
                 </section>
             </section>
-
+            <section data-background-color="#446CB3">
+                <h3 class="titulo-case" style="color: #fff!important;">Storyboard</h3>
+                <section>
+                    <img style=" margin-top: 70px !important" width="1020" height="600" data-src="img/storyboard/Login.png">
+                </section>
+                <section>
+                    <img style=" margin-top: 70px !important" width="1020" height="600" data-src="img/storyboard/Login com Google.png">
+                </section>
+                <section>
+                    <img style=" margin-top: 70px !important" width="1020" height="600" data-src="img/storyboard/Home - Dashboard - Ações Opções.png">
+                </section>
+                <section>
+                    <img style=" margin-top: 70px !important" width="1020" height="600" data-src="img/storyboard/Home - Cliente - Administrar 1_3.png">
+                </section>
+            </section>
             <section data-background-color="#7f8c8d">
                 <h2>...É isso.</h2>
                 <h3>Obrigado!</h3>
             </section>
-
         </div>
     </div>
-
     <script src="lib/js/head.min.js"></script>
     <script src="js/reveal.js"></script>
-
     <script>
         // More info https://github.com/hakimel/reveal.js#configuration
         Reveal.initialize({
