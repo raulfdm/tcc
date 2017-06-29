@@ -1,4 +1,5 @@
 # TCC - Sistemas de Informação
+> Nota: 10 :tada:
 
 ## Objetivo
 Este repositório tem como objetivo controlar versão de todo o processo do meu trabalho de conclusão de curso.
@@ -29,5 +30,3 @@ Este repositório tem como objetivo controlar versão de todo o processo do meu 
 - [X] Storyboad (telas do sistema); (22/11/2016)
 - [X] Entrega: 3 cópias espiraladas. (29/11/2016)
 - [X] BANCA (12/12/2016)
-
-## Nota: 10
